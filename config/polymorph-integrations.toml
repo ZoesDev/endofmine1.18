@@ -4,12 +4,12 @@ fastfurnace = true
 ironfurnaces = true
 occultism = true
 jei = true
-ae2 = true
+ae2 = false
 refinedstorageaddons = true
 craftingcraft = true
 toms_storage = true
 refinedstorage = true
-prettypipes = true
+prettypipes = false
 fastbench = true
-cyclic = true
+cyclic = false
 

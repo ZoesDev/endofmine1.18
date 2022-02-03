@@ -654,7 +654,7 @@
 
 	[world.nether_obsidian_spikes]
 		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
-		"Chance Per Chunk" = 0.1
+		"Chance Per Chunk" = 0.01
 		#The chance for a spike to be big (1 is 100%, 0 is 0%)
 		"Big Spike Chance" = 0.03
 		#Should a chunk have spikes, how many would the generator try to place

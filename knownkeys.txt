@@ -74,3 +74,15 @@ key.ftbchunks.minimap.zoomIn
 key.ftbchunks.minimap.zoomOut
 Reload Menu | CTRL + ALT + 
 Toggle Customization Overlay | CTRL + ALT + 
+keys.simplemagnets.toggle
+key.curios.open.desc
+Open sound muffler screen
+cos.key.opencosarmorinventory
+key.inventorysorter.itemin
+key.inventorysorter.sort
+key.inventorysorter.itemout
+mininggadgets.text.open_gui
+key.drawMahoujin
+key.changeMysticCode
+key.settingsGUI
+tombstone.message.knowledge_of_death

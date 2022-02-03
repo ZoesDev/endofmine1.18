@@ -36,9 +36,9 @@
 	"Allow Shapes" = true
 	#How many excavations should be kept in undo history (may lead to exploits or instability)
 	#Range: > 0
-	"Max Undos" = 3
+	"Max Undos" = 0
 	#Allows excavation undo function to work through liquids and other replaceable blocks
-	"Undo Replaceables " = true
+	"Undo Replaceables " = false
 	#The default game stage required to unlock excavations (requires gamestages to be installed)
 	"Game Stage" = ""
 	#Tools blacklisted from excavating
