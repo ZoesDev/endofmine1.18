@@ -47,7 +47,7 @@
 		#In what range should the Advanced Wireless Player Charger power players' items? For example, a range of 1 means a 3x3x3 area.
 		#Requires a world reload
 		#Allowed Range: 1 ~ 10  Default: 6
-		advancedPlayerChargerRange = 6
+		advancedPlayerChargerRange = 10
 		#How much energy should the Advanced Wireless Player Charger be able to store?
 		#Requires a world reload
 		#Allowed Range: 1000 ~ 1000000  Default: 100000

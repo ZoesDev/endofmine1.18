@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -1416,15 +1416,15 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = true
+		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1432,11 +1432,11 @@
 
 [oddities]
 	"Totem Of Holding" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
+	Backpack = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.

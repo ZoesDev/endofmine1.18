@@ -22,7 +22,7 @@
 [machines]
 	adv_pump = true
 	adv_quarry = true
-	book_mover = false
+	book_mover = true
 	exp_module = true
 	exp_pump = true
 	fuel_module_normal = true

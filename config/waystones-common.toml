@@ -10,7 +10,7 @@
 	minimumBaseXpCost = 0.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	maximumBaseXpCost = 3.0
+	maximumBaseXpCost = 0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
 	xpCostPerLeashed = 1
@@ -43,7 +43,7 @@
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
 	restrictToCreative = false
 	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-	restrictRenameToOwner = false
+	restrictRenameToOwner = true
 	#If enabled, waystones generated in worldgen are unbreakable.
 	generatedWaystonesUnbreakable = false
 	#If enabled, leashed mobs will be teleported with you
@@ -86,7 +86,7 @@
 
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-	inventoryButton = ""
+	inventoryButton = "NONE"
 	#The x position of the warp button in the inventory.
 	#Range: > -2147483648
 	warpButtonX = 58
