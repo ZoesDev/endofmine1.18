@@ -32,6 +32,9 @@ key.hotbar.6
 key.hotbar.7
 key.hotbar.8
 key.hotbar.9
+key.clienttweaks.hideOffhandItem
+key.clienttweaks.disableStepAssist
+key.lightoverlay.enable_overlay
 key.trashslot.toggle
 key.trashslot.delete
 key.trashslot.deleteAll
@@ -66,22 +69,6 @@ key.craftingtweaks.decompressStack
 key.craftingtweaks.decompressAll
 key.craftingtweaks.refill_last
 key.craftingtweaks.refill_last_stack
-keys.simplemagnets.toggle
-key.curios.open.desc
-Open sound muffler screen
-key.tinyredstone.rotation_lock
-cos.key.opencosarmorinventory
-key.inventorysorter.itemout
-key.inventorysorter.itemin
-key.inventorysorter.sort
-mininggadgets.text.open_gui
-key.drawMahoujin
-key.changeMysticCode
-key.settingsGUI
-tombstone.message.knowledge_of_death
-key.clienttweaks.hideOffhandItem
-key.clienttweaks.disableStepAssist
-key.lightoverlay.enable_overlay
 key.ftbchunks.map
 key.ftbchunks.minimap.zoomIn
 key.ftbchunks.minimap.zoomOut
