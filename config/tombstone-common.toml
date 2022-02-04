@@ -10,9 +10,9 @@
 	#Whether to log the positions of players' graves [false/true|default:true]
 	log_player_grave = true
 	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
-	loss_on_death_only_for_abandoned_grave = true
+	loss_on_death_only_for_abandoned_grave = false
 	#Only stackable items can be lost on death [false/true|default:true]
-	loss_on_death_only_for_stackable_items = true
+	loss_on_death_only_for_stackable_items = false
 	#Prevents death outside the borders of the world [false/true|default:true]
 	prevent_death_outside_world_border = true
 	#Prevents death outside the build height [false/true|default:false]
