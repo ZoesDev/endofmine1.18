@@ -4,8 +4,6 @@
 	#Fuel cost of a large plane
 	#Range: > 0
 	large_plane_fuel_cost = 6
-	#Easier flight mode, disables the extreme movements
-	easyFlight = false
 	#Fuel cost of a helicopter
 	#Range: > 0
 	helicopter_fuel_cost = 6
