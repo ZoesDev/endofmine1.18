@@ -1,0 +1,54 @@
+{
+	"mod": "endlessocean",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"blue_whale": {
+						// Do not edit this name
+						"name": "blue_whale",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					},
+					"african_penguin": {
+						// Do not edit this name
+						"name": "african_penguin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					},
+					"magu_tapa": {
+						// Do not edit this name
+						"name": "magu_tapa",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					},
+					"ancient_mother": {
+						// Do not edit this name
+						"name": "ancient_mother",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					},
+					"bottlenose_dolphin": {
+						// Do not edit this name
+						"name": "bottlenose_dolphin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					}
+				}
+			},
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"spot_billed_pelican": {
+						// Do not edit this name
+						"name": "spot_billed_pelican",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 15
+					}
+				}
+			}
+		}
+	}
+}

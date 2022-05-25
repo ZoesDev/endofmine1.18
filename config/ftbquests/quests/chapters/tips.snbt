@@ -1,0 +1,863 @@
+{
+	id: "5997D15739486375"
+	group: ""
+	order_index: 0
+	filename: "tips"
+	title: "Tips"
+	icon: "minecraft:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:writable_book"
+			x: 0.5d
+			y: -1.0d
+			shape: "heart"
+			description: ["This quest book gives only minor exp. This is ment to show you mods that are availble in the mod pack and not force you in a direction unless you want too. The quests follow the way I normally go through a pack when I do things on my own"]
+			size: 4.0d
+			id: "4C80AAE4CABB668A"
+			tasks: [{
+				id: "7B1C3775DF95B0DB"
+				type: "checkmark"
+				title: "Starting Out"
+			}]
+			rewards: [
+				{
+					id: "72D191CE848CE99B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B53B137454DAA4D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05D251112CDDFC7B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53B0F97468F99E7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BD1DD72049D2457"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65EA7366CB85A56C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1353F1E73B661B29"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			description: ["The Book to rule them all. Add other books to this one in the crafting grid"]
+			id: "35CB554ACCBA4428"
+			tasks: [{
+				id: "7BEB4A5B27D85533"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [
+				{
+					id: "6B58929CF261104A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39DBE960A599A8FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5DC888C1E735AE76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FF9DA7D2B9928EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "303FF3C6E27C6A3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A240672BDEF8C7F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CC50F7B791F16A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["There are chests that are per person loot tables from the mod Lootr"]
+			id: "2827C8D5C5C6B9A0"
+			tasks: [{
+				id: "3D75BB06E5C19662"
+				type: "checkmark"
+				title: "Chests"
+			}]
+			rewards: [
+				{
+					id: "3C5EFFAA2954F2F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2005D2F2CB908F50"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B19821187031F50"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51E2186C0F2E2728"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "54C8C126F42D5660"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15855582E5C3E3B7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Sleeping"
+			x: -2.0d
+			y: -3.5d
+			description: [
+				"Here are a few other ways to sleep in this mod pack"
+				"They will not set your spawn point"
+			]
+			id: "1D0D81C7FBFAEB08"
+			tasks: [
+				{
+					id: "4BE7C3A227B40384"
+					type: "item"
+					item: "comforts:sleeping_bag_white"
+				}
+				{
+					id: "29AD84C25A00B47E"
+					type: "item"
+					item: "comforts:hammock_white"
+				}
+			]
+			rewards: [
+				{
+					id: "5D35881E1DCACF12"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A685047E5C6B09C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2EC3BBE5400D881D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68F44DC22E20084B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "75F2C7262EA04342"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12B02618B73F5BD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "444B25AEF8B960DF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["FTB teams can be used to Sync quest status with others. If the team leader removes you from the team, your progress is reset and if you have completed anything before you will be reset to what the team has"]
+			id: "593FB2EC55FB9BE1"
+			tasks: [{
+				id: "6E1016021441ED63"
+				type: "checkmark"
+				title: "FTB Teams"
+			}]
+			rewards: [
+				{
+					id: "6B326796D021B80D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53ACAA5BDADC78F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E6F8EED68AFCF4E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38E40B121BCC09B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A8EB9C6A5C27E9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "034923758F6429B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["The trash slot in your inventory can be used to delete items that you want to get ride of"]
+			id: "4A9C26DDEF11A62A"
+			tasks: [{
+				id: "37756275CDAAEB46"
+				type: "checkmark"
+				title: "Trash Slot"
+			}]
+			rewards: [
+				{
+					id: "712C1E3C90FADE20"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B1753BB383D4932"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "548F025776F629C1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E8B9E3DB4397AA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5597D8312F4994C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09F6E6E0CFC6BACD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			description: ["You can mute differnt sounds by clicking the speaker icon in your inventory to the right of your head"]
+			id: "2CEE6C81C0958504"
+			tasks: [{
+				id: "404E437B304899F4"
+				type: "checkmark"
+				title: "Sound Muffler"
+			}]
+			rewards: [
+				{
+					id: "7D3B690ED673AE7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F8A62C33C9F5DBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6D50FE525FF7E099"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F8256BE8BBC8457"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76B70DF81E74A424"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74B62526796032D2"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: [
+				"claim chunsk using the map icon in inventory or hotkey - or in journeymap."
+				"you can claim 500 and chunk load 25 "
+				"chunk load by holding left shift on your claimed chunks"
+			]
+			id: "78F0B4A85C1B4862"
+			tasks: [{
+				id: "376EDA93C88F62AD"
+				type: "checkmark"
+				title: "Chunk Loading and claims"
+			}]
+			rewards: [
+				{
+					id: "7834E619C38EDD6D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BA492BCB4ED01AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18BD2004AA17487B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1209E7B0E988ADED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28BA0B89D507D064"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CCA9903FB282190"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			description: ["You can use Way Stones to teleport around the server. We have one at spawn so make sure to click that one"]
+			id: "6C5E6C47561F8FCF"
+			tasks: [{
+				id: "0DCF786DEA6A454F"
+				type: "checkmark"
+				title: "WayStones"
+			}]
+			rewards: [
+				{
+					id: "15500EAD89EC15D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EF6614FDC8DE9BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22B60C2A7504E20F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "108883AEC23445EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20EBAE27DF4F0CA8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "557381DA80C6F017"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["You can use m to create a waypoint at your point. you can disable them in the Journeymap by hitting J"]
+			id: "18738E80E63A7D5C"
+			tasks: [{
+				id: "7ECD868EB3B98A57"
+				type: "checkmark"
+				title: "Journeymap Waypoints"
+			}]
+			rewards: [
+				{
+					id: "17CEC061308A7B36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0249A6FA78817779"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "313C0B891CFAB2BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "051FCC19B775D09E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65779F57C1CB0FB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1FC3746627B79F95"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["You can add Items to Curios by clicking the o to the left of your head in your inventory. Items like artifacts, Angel Ring, Backpacks, Elytra etc can all be added."]
+			id: "6943B8A11A1D0C44"
+			tasks: [{
+				id: "22CDC3D3B8716048"
+				type: "checkmark"
+				title: "Curios"
+			}]
+			rewards: [
+				{
+					id: "6C67FA0D952DC1D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BAD01A45D4AF6E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5265BB84F0A14859"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B333BDF579A74AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "41CDC35A89BFFDAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "722E94C96FB48BE7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			description: ["Dont like the look of the most powerful armor in the game? Go ahead and equip a cosmetic set "]
+			id: "093D79AB5F968668"
+			tasks: [{
+				id: "7F1016275D29CD0F"
+				type: "checkmark"
+				title: "Cosmetic Armor"
+			}]
+			rewards: [
+				{
+					id: "2A0925225B94E653"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6902ABA2F79130B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0381F609B0AE76F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3317A136CF12C08D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B3B525400A0DCCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7CDD531F7CCD7157"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			description: ["You can Middle click in inventories to sort them "]
+			id: "07D4E0B3AFDFD982"
+			tasks: [{
+				id: "15583CEE18A7C2AA"
+				type: "checkmark"
+				title: "Inventory Sorting"
+			}]
+			rewards: [
+				{
+					id: "17D8A4B09F53E511"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00582108779AF6BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EAB3A410ED88286"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "19D913F7692FFA34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5917E0BBCF9DE38D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "011EA88C4AADF6E4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: "minecraft:sugar_cane"
+			x: 5.0d
+			y: -4.0d
+			description: ["Does that sugar cane look tall to you? Thats becuase it is. They can grow extra tall in this pack"]
+			id: "7BF4739B5064F9B5"
+			tasks: [{
+				id: "4F13F955062131A0"
+				type: "checkmark"
+				title: "Sugar  Cane"
+			}]
+			rewards: [
+				{
+					id: "4E5197380E286218"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2EFB1A52EFF84E9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04AF3E46B182C59C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F74D091409C79F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58DA88ED49F0128B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D7787C51E56D775"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: "productivebees:inactive_dragon_egg"
+			x: 1.5d
+			y: -4.5d
+			description: ["Think there is only one dragon egg? Nope each time you defeat the Ender Dragon you can get one."]
+			id: "0B60FB45B49CDB45"
+			tasks: [{
+				id: "2B88876328A63D4D"
+				type: "checkmark"
+				title: "Dragon Egg"
+			}]
+			rewards: [
+				{
+					id: "5F85130248D2B91B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A30F479C641433D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C9FB9EAEE6C84E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74A7A880F250FC38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B6A8F148783D04E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44BDEDE3DFCA1898"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			id: "1CC80AE268C2CC85"
+			tasks: [{
+				id: "4AB1B013C82107C6"
+				type: "checkmark"
+				title: "Backpacks"
+			}]
+			rewards: [
+				{
+					id: "5262B102E239B39C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05BB87F23B5C1445"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "08591FC991853E41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09DCB0FBF37A13E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F203E9524B1C7A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7EB1692FBA01F345"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["With Kleeslabs you can break jsut the top or bottom slab"]
+			id: "283DCC65D202B0C8"
+			tasks: [{
+				id: "39993BE17003BC59"
+				type: "checkmark"
+				title: "Kleeslabs"
+			}]
+			rewards: [
+				{
+					id: "6F7843560CC50064"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "258425D89C680838"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51258ECC854F95B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33F2454C1873F2F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03FD6076E725553C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1AD9B6A6479A6665"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			description: ["Be on the look out for these little guys. they have wares for your items"]
+			id: "0151E0DFEFD9BC2A"
+			tasks: [{
+				id: "29859E9B1B7C2700"
+				type: "checkmark"
+				title: "Goblin Traders"
+			}]
+			rewards: [
+				{
+					id: "4C00105937B5CECA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "504E4140F0A15A0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "618ACCCD8D081100"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5541A8140245C7ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "64124D560F470E62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "328FBD922E883068"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: ["Is your Recipe not working right? Is there a conflict, well good news everybody, You can click the switch icon in the crafting grid to switch the output item"]
+			id: "4615BAAD948C6B09"
+			tasks: [{
+				id: "5597BE7E072E00FF"
+				type: "checkmark"
+				title: "Recipe not working?"
+			}]
+			rewards: [
+				{
+					id: "3C8EA475905EC8E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1ED3E1C2FA890892"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EC7BB29EAA1B125"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A4B827CD3868E32"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53BE9049CBB1AA10"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "498814A8F6CE9999"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

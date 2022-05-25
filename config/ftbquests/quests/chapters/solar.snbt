@@ -1,0 +1,91 @@
+{
+	id: "678BD6841BC67DAD"
+	group: "69589C2802F20EC3"
+	order_index: 0
+	filename: "solar"
+	title: "Solar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -4.0d
+			id: "396A8DECAB877978"
+			tasks: [{
+				id: "61345AEAFC6830D8"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			id: "2B115EBC27C39086"
+			tasks: [{
+				id: "66B01BE9D98F85BA"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			id: "6FCD726B9CEA6071"
+			tasks: [{
+				id: "6BC5F9B5A05FA252"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			id: "4C056BE9D3960E31"
+			tasks: [{
+				id: "0B108243F016F5C0"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "4B0A2422CDE34F3A"
+			tasks: [{
+				id: "2C26433500987EBC"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "4716FF595A870CF4"
+			tasks: [{
+				id: "1D5C7F4C7FE9A0BD"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			id: "793CCE7AE6C05833"
+			tasks: [{
+				id: "4630E4816839E22D"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			id: "1EF83369C33EED7B"
+			tasks: [{
+				id: "63C7D16D7D7A857D"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+	]
+}

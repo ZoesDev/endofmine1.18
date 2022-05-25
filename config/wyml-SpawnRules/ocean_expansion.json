@@ -1,0 +1,90 @@
+{
+	"mod": "ocean_expansion",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"sea_butterfly": {
+						// Do not edit this name
+						"name": "sea_butterfly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"mar_spider": {
+						// Do not edit this name
+						"name": "mar_spider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"glow_spider_crab": {
+						// Do not edit this name
+						"name": "glow_spider_crab",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"azul_cod": {
+						// Do not edit this name
+						"name": "azul_cod",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"spider_crab": {
+						// Do not edit this name
+						"name": "spider_crab",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"fish": {
+						// Do not edit this name
+						"name": "fish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"mergon": {
+						// Do not edit this name
+						"name": "mergon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"sunken": {
+						// Do not edit this name
+						"name": "sunken",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"drowned_knight": {
+						// Do not edit this name
+						"name": "drowned_knight",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"sea_mage": {
+						// Do not edit this name
+						"name": "sea_mage",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"glow_guardian": {
+						// Do not edit this name
+						"name": "glow_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"drowned_lord_mob": {
+						// Do not edit this name
+						"name": "drowned_lord_mob",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

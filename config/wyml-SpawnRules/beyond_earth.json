@@ -1,0 +1,60 @@
+{
+	"mod": "beyond_earth",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"alien": {
+						// Do not edit this name
+						"name": "alien",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"martian_raptor": {
+						// Do not edit this name
+						"name": "martian_raptor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"alien_zombie": {
+						// Do not edit this name
+						"name": "alien_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mogler": {
+						// Do not edit this name
+						"name": "mogler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pygro": {
+						// Do not edit this name
+						"name": "pygro",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"star_crawler": {
+						// Do not edit this name
+						"name": "star_crawler",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pygro_brute": {
+						// Do not edit this name
+						"name": "pygro_brute",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

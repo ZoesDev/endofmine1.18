@@ -1,0 +1,25 @@
+{
+	"mod": "butchersdelight",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"undeadcow": {
+						// Do not edit this name
+						"name": "undeadcow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"undeadcow_2": {
+						// Do not edit this name
+						"name": "undeadcow_2",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"mod": "arsomega",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"demon_basic": {
+						// Do not edit this name
+						"name": "demon_basic",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"boss_demon_king": {
+						// Do not edit this name
+						"name": "boss_demon_king",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"demon_strong": {
+						// Do not edit this name
+						"name": "demon_strong",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

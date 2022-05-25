@@ -1,0 +1,42 @@
+{
+	"mod": "plus_the_end",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ender_bitten": {
+						// Do not edit this name
+						"name": "ender_bitten",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 15
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ender_fly": {
+						// Do not edit this name
+						"name": "ender_fly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"ender_skeleton": {
+						// Do not edit this name
+						"name": "ender_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spawn_bitten": {
+						// Do not edit this name
+						"name": "spawn_bitten",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -12,17 +12,21 @@
 	convertDeepslateOres = false
 	#Spawner Controller Blacklist
 	spawnerBlacklist = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:area_effect_cloud", "minecraft:item", "minecraft:player"]
-	#The amount of energy that Solid Fuel Quarry generates in a tick.
+	#The amount of energy[FE] that Solid Fuel Quarry generates in a tick.
 	#Range: 0.0 ~ 100.0
 	sfqEnergy = 2.0
 	#Remove common materials(Stone, Dirt, Grass, Sand) obtained by Chunk Destroyer
 	removeCommonMaterialsByCD = true
+	#Remove MarkerPlus guide line if player is too far from the marker.
+	reduceMarkerGuideLineIfPlayerIsFar = false
+	#Remove adjacent frames when quarry is removed.
+	removeFrameAfterQuarryIsRemoved = false
 
 #QuarryPlus Machines. Set true to enable machine or item.
 [machines]
 	adv_pump = true
 	adv_quarry = true
-	book_mover = true
+	book_mover = false
 	exp_module = true
 	exp_pump = true
 	fuel_module_normal = true
@@ -39,6 +43,9 @@
 	solid_fuel_quarry = true
 	spawner_controller = false
 	workbench = true
+	filler = true
+	filler_module = true
+	remote_placer = false
 
 #Power settings of each machines
 [powers]
@@ -122,4 +129,10 @@
 		breakFortuneCoefficient = 1.5874010519681996
 		#Range: 0.0 ~ 1.0E9
 		breakSilktouchCoefficient = 4.0
+
+	[powers.filler]
+		#Range: 0.0 ~ 1.0E9
+		maxEnergy = 1000.0
+		#Range: 0.0 ~ 1.0E9
+		breakBlockBase = 15.0
 

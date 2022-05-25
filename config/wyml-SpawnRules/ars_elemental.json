@@ -1,0 +1,95 @@
+{
+	"mod": "ars_elemental",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"siren_entity": {
+						// Do not edit this name
+						"name": "siren_entity",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					},
+					"siren_familiar": {
+						// Do not edit this name
+						"name": "siren_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"summon_direwolf": {
+						// Do not edit this name
+						"name": "summon_direwolf",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"firenando_entity": {
+						// Do not edit this name
+						"name": "firenando_entity",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"summon_skelehorse": {
+						// Do not edit this name
+						"name": "summon_skelehorse",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"flashing_weald_walker": {
+						// Do not edit this name
+						"name": "flashing_weald_walker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"firenando_familiar": {
+						// Do not edit this name
+						"name": "firenando_familiar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"air_mage": {
+						// Do not edit this name
+						"name": "air_mage",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"earth_mage": {
+						// Do not edit this name
+						"name": "earth_mage",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"fire_mage": {
+						// Do not edit this name
+						"name": "fire_mage",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"summon_vhex": {
+						// Do not edit this name
+						"name": "summon_vhex",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"water_mage": {
+						// Do not edit this name
+						"name": "water_mage",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

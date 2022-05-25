@@ -1,0 +1,820 @@
+{
+	id: "71A965A0F6FD8E3C"
+	group: "5661A4C755BF19B9"
+	order_index: 0
+	filename: "basic_tools"
+	title: "Basic Tools"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["You can shrink and grow yourself or mobs with this tool"]
+			id: "75805EC6995D51CE"
+			tasks: [{
+				id: "071535DD1B92168E"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "050B7601066CD2D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "43472FFA390B0B47"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FD10CAA84BA9670"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29FF8BD227CBD44F"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			description: ["This bottle will save the time while you are on the server that can then be used later to speed up machines and other items"]
+			id: "07D2FFDFB284ED55"
+			tasks: [{
+				id: "5227B8531412C077"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "68E04F4E35925D85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "531B7AA42B9C50FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59FB4D86EA9FB602"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "68C383C18AA26AB1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			id: "4DF1EBEDA708F27E"
+			tasks: [{
+				id: "4D6923CB3ACB9D99"
+				type: "item"
+				item: {
+					id: "simplemagnets:basicmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7C6340D69E309B7C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A845EFBE0B52593"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22F7F725ECB74317"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00271973DF909E32"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			dependencies: ["4DF1EBEDA708F27E"]
+			id: "3E7AA31C244534A8"
+			tasks: [{
+				id: "10FF75349B1221CB"
+				type: "item"
+				item: {
+					id: "simplemagnets:advancedmagnet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "48EF0DDF251170C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "212F9808CE1D6A24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7387AA148228AEB8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05C588572A7841B1"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			description: ["Creative flight at your finger tips"]
+			id: "14277B8579F19217"
+			tasks: [{
+				id: "4976BC9D8FAEBD3F"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+			rewards: [
+				{
+					id: "57F03BE678F11B49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26E2473115F0B3DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6000886E6C61DAF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EE7A22223510C95"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			description: ["You can use this block to create unquie blocks that arent normally possible"]
+			id: "5450F1DC3BE147DC"
+			tasks: [{
+				id: "351C73F30E7980CC"
+				type: "item"
+				item: "framedblocks:framed_cube"
+			}]
+			rewards: [
+				{
+					id: "33B1DDF21F200ED5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "500B1933E185DF24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B839374CFDF4D15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "355A049F320AED89"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			id: "7228DF6F41095626"
+			tasks: [{
+				id: "01EF533570F99539"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1B2FDC6FACCEFE6D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "165958150A271F31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BEFECF41ED25A61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "463D7AED2D1B070E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			id: "0A0193DE83355D4F"
+			tasks: [{
+				id: "6544CAA7A96BAF1C"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+			rewards: [
+				{
+					id: "1BEAD9FD0CAEE127"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6CA33DE24CDD5AE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6840153686BE2FBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1A77E9414537BC80"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "03E34E9BAA21BFA2"
+			tasks: [{
+				id: "3E57C4483C279FEC"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2B1656B4408E59D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4A52336F29732630"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60DF4EA32158ECED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0067F392DCA7252D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			id: "593FC02A715343F8"
+			tasks: [{
+				id: "4D9F930AEAC82389"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "4DA309F99E4CABD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E133C77496DBF84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3521C64EC784ADEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20C88341954392DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "10F98BF9540EA716"
+			tasks: [{
+				id: "581274F523FCC4D2"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [
+				{
+					id: "445EBD4F22DD7813"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55BA4E32AF3445DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BEAFB8475FB8662"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71F87601747AD739"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "545190E2BB1DCF23"
+			tasks: [{
+				id: "149115E099A50D0D"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [
+				{
+					id: "5E0E8A72121DC223"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20A112FEE8916C35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6255E3A5CBB50931"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "695F74F8AEE7A385"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "33134F14573AF738"
+			tasks: [{
+				id: "6300F84BFAF2A8E8"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [
+				{
+					id: "166DCB5236AC14FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0432F20C6BF90444"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6288F0C2CB219114"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C40B4DF15581C5A"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "5731A894D00F8066"
+			tasks: [{
+				id: "346F16178423568C"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [
+				{
+					id: "611986C58CC16443"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "635C778FB84D85B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4331A0BBB8A03EB7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72EBA4F8BDBEFD96"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "14DA3715042D8E2E"
+			tasks: [{
+				id: "0DAAE72D2C7DDD3F"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [
+				{
+					id: "117F8AAA648A6B23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "051D2B4E79894004"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "416DE2A5E641FC86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51521A74EF85B410"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "7DBE4614465D89CA"
+			tasks: [{
+				id: "54270AB1C6DE2D6C"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [
+				{
+					id: "3551541A9BA9F9A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07E5789AF4A07EA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42CFE22A65DE5BE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F2A42EBB10D7AF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "52451FA471EC08C6"
+			tasks: [{
+				id: "68177D6902CA3472"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+			rewards: [
+				{
+					id: "21C52413D47720EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A9F276F64974FC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "061E3670C7D4F664"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "552FC9CBF169EB58"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "09F8F4189E056B40"
+			tasks: [{
+				id: "1F0F7E784665C2A9"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [
+				{
+					id: "5DC751F9E5BA18E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30B3582E9F9B86C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4704FACE95F89369"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5CA6F592693BD427"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "0674280B1B01690F"
+			tasks: [{
+				id: "385157A86468CFD5"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
+			rewards: [
+				{
+					id: "0C987CC38E639E61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "02A3DD47E0AF69AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23AA7A20F4F4D4D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E6A8B72B0166AFA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			id: "0CFD8F51633788E1"
+			tasks: [{
+				id: "5C0059900315DC3D"
+				type: "item"
+				item: {
+					id: "ironfurnaces:million_furnace"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3662058A225A2EE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A422483E59BC053"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0177DDBF6A92C653"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "487BBF0ABC425B3E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "6E12FF77661ABFA9"
+			tasks: [{
+				id: "62ED0B90B2A2C6FF"
+				type: "item"
+				item: "ironfurnaces:heater"
+			}]
+			rewards: [
+				{
+					id: "38472CC9875F9393"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4803F12E252656EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15B29CEFF3EB4133"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71714194594DF1B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "25CC96B21623F654"
+			tasks: [{
+				id: "334B669C109849BC"
+				type: "item"
+				item: "elevatorid:elevator_white"
+			}]
+			rewards: [
+				{
+					id: "33B062ECD2F5C76C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AF360D325E9BBD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BAB67490DC2A6C0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "10462CFE1D46579C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			description: [
+				"There is a mod to allow blocking hostile mobs int he area you do not want them."
+				"One torch to rule them all"
+			]
+			id: "59BFA9FF5E19B5D3"
+			tasks: [{
+				id: "58AC2B43760CF00B"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+			rewards: [
+				{
+					id: "1726DE4F6AA76B1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0EE0DE729F0E2E08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6765EF67F8444E80"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0ABDCD9BA73515F4"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			id: "2A51B1CC10EFABE8"
+			tasks: [{
+				id: "659A4F2775F34764"
+				type: "checkmark"
+				title: "Entange 2 blocks into each other."
+			}]
+			rewards: [
+				{
+					id: "3BBF81839ECCEA1C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3E9DDC6F750C8095"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2151CF43FD7860D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6329364B2B35C37C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
+}

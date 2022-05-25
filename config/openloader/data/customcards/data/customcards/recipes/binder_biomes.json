@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "buddycards:buddycards_biomes"
+    },
+    {
+      "tag": "buddycards:buddycards_biomes"
+    },
+    {
+      "tag": "buddycards:buddycards_biomes"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_binder_biomes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "buddycards:buddycards_minecolony"
+    },
+    {
+      "tag": "buddycards:buddycards_minecolony"
+    },
+    {
+      "tag": "buddycards:buddycards_minecolony"
+    }
+  ],
+  "result": {
+    "item": "buddycards:buddycard_binder_minecolony"
+  }
+}

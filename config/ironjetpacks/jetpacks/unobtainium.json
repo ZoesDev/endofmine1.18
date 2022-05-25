@@ -20,5 +20,6 @@
   "sprintSpeedMultiVertical": 1.0,
   "toughness": 0.0,
   "knockbackResistance": 0.0,
-  "speedHoverAscend": 0.9
+  "speedHoverAscend": 0.9,
+  "curios": true
 }

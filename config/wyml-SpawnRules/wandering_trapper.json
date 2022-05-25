@@ -1,0 +1,25 @@
+{
+	"mod": "wandering_trapper",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"trapper_dog": {
+						// Do not edit this name
+						"name": "trapper_dog",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"wandering_trapper": {
+						// Do not edit this name
+						"name": "wandering_trapper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

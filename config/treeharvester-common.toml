@@ -1,7 +1,5 @@
 
 [General]
-	#If enabled, automatically replaces the sapling from the drops when the bottom log is broken and the player is not holding the sneak button.
-	replaceSaplingIfBottomLogIsBroken = true
 	#If enabled, tree harvesting only works when a player is holding an axe in the main hand.
 	mustHoldAxeForTreeHarvest = true
 	#If enabled, tree harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.
@@ -24,4 +22,18 @@
 	#This determines how much exhaustion should be added to the player per harvested log. By default 0.005 * 1.0.
 	#Range: 0.001 ~ 1.0
 	increaseExhaustionModifier = 1.0
+	#If enabled, giant/huge mushrooms will also be chopped down quickly.
+	enableHugeMushrooms = true
+	#If enabled, automatically replaces the sapling from the drops when a tree is harvested.
+	replaceSaplingOnTreeHarvest = true
+	#If enabled, automatically replaces the sapling from the drops when a huge mushroom is harvested and 'enableHugeMushrooms' is enabled.
+	replaceMushroomOnMushroomHarvest = true
+	#If enabled, harvesting time will increase per existing log in the tree. The amount is determined by 'increasedHarvestingTimePerLogModifier'.
+	increaseHarvestingTimePerLog = true
+	#How much longer it takes to harvest a tree with 'increaseHarvestingTimePerLog' enabled. The actual speed is: newSpeed = originalSpeed / (1 + (logCount * increasedHarvestingTimePerLogModifier)).
+	#Range: 0.01 ~ 10.0
+	increasedHarvestingTimePerLogModifier = 0.1
+	#How many leaves should be broken per tick after a tree has been harvested. Increasing this will speed up the fast leaf decay, but costs more processing power per tick.
+	#Range: 1 ~ 16
+	amountOfLeavesBrokenPerTick = 3
 

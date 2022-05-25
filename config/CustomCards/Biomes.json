@@ -1,0 +1,21 @@
+{
+  "common": 12,
+  "uncommon": 9,
+  "rare": 4,
+  "epic": 2,
+  "medalEffects": [
+    {
+      "effect": "minecraft:speed",
+      "mod": 0
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "mod": 0
+    },
+    {
+      "effect": "minecraft:speed",
+      "mod": 1
+    }
+  ],
+  "name": "Biomes"
+}

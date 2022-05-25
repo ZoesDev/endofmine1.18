@@ -1,0 +1,53 @@
+{
+	"mod": "tofucraft",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tofucow": {
+						// Do not edit this name
+						"name": "tofucow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"tofunian": {
+						// Do not edit this name
+						"name": "tofunian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tofufish": {
+						// Do not edit this name
+						"name": "tofufish",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tofuslime": {
+						// Do not edit this name
+						"name": "tofuslime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"tofuspider": {
+						// Do not edit this name
+						"name": "tofuspider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}
