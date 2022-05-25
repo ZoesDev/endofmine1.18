@@ -1,7 +1,7 @@
 onEvent('recipes', event => {
 	event.remove({output: 'projecte:transmutation_table'})
 
-    //Project Architect Addition
+    //projecte Addition
     event.shaped('projecte:transmutation_table', [
         'NPN',
         'SES',
@@ -15,5 +15,12 @@ onEvent('recipes', event => {
 
     });
 
+    //a few misc crafts to make things easier
+    event.shapeless('minecraft:flint', [
+        'SS',
+        'S'
+      ], {
+        S: 'minecraft:gravel'
+      });
 
   })
