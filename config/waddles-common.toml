@@ -5,7 +5,7 @@
 	#Penguins should drop experience?
 	dropExp = true
 	#Use the Darkosto skin variant by default?
-	darkostoDefault = false
+	darkostoDefault = true
 	"spawn blocks" = ["minecraft:grass_block"]
 
 ["spawn chances"]

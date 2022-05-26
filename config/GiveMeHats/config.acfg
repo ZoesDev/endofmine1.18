@@ -27,7 +27,7 @@ enable_golembucket=1
 ##Luck settings##
 #in a given lootable inventory, the max amount of hats possible to spawn in it
 #defaults to 3, minimum is 0
-max_hats_per_chest=3
+max_hats_per_chest=1
 #the chance that for each loot roll (see max_hats_per_chest) a hat WON'T spawn
 #defaults to 3, minimum is 1, 1 guarantees a hat per roll
 no_hat_per_roll=3

@@ -16,7 +16,7 @@
 	// Time between manual backups using the command
 	"manual_backups_time": 0,
 	// Only run a backup if a player has been online since the last backup
-	"only_if_players_been_online": true,
+	"only_if_players_been_online": false,
 	// Additional directories to include in backup
 	"additional_directories": []
 }
