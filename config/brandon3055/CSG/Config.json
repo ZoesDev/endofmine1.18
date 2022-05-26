@@ -1,6 +1,0 @@
-{
-  "inventory": {
-    "0:0": "{Count:1b,id:\"akashictome:tome\",tag:{\"akashictome:data\":{croptopia:{Count:1b,id:\"croptopia:guide\"},electrodynamics:{Count:1b,id:\"electrodynamics:guidebook\"},immersiveengineering:{Count:1b,id:\"immersiveengineering:manual\"},patchouli:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"apotheosis:apoth_chronicle\"}}}}}"
-  },
-  "wipeBlacklist": []
-}
