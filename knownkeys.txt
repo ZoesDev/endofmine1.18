@@ -322,3 +322,7 @@ keys.vampirism.action1
 keys.vampirism.action2
 keys.vampirism.action3
 keys.vampirism.minion_task
+Toggle Drippy Customization Overlay | CTRL + ALT + 
+armorstatushud.keys.open_settings
+flight_descent
+key.jei.closeRecipeGui
