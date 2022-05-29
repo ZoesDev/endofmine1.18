@@ -15,3 +15,4 @@ saves/
 servers.dat
 usercache.json
 usernamecache.json
+*.bak
