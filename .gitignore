@@ -17,4 +17,4 @@ usercache.json
 usernamecache.json
 *.bak
 emojiful/
-crash_reports/
+crash-reports/
