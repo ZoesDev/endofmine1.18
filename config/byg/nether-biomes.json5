@@ -45,11 +45,7 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:brimstone_caverns",
-				"weight": 2
-			},
-			{
-				"data": "byg:subzero_hypogeal",
+				"data": "byg:weeping_mire",
 				"weight": 2
 			},
 			{
@@ -57,23 +53,27 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:weeping_mire",
+				"data": "byg:brimstone_caverns",
 				"weight": 2
 			},
 			{
+				"data": "byg:subzero_hypogeal",
+				"weight": 0
+			},
+			{
 				"data": "byg:warped_desert",
+				"weight": 0
+			},
+			{
+				"data": "byg:magma_wastes",
 				"weight": 2
 			},
 			{
 				"data": "byg:quartz_desert",
-				"weight": 2
+				"weight": 0
 			},
 			{
 				"data": "byg:crimson_gardens",
-				"weight": 2
-			},
-			{
-				"data": "byg:magma_wastes",
 				"weight": 2
 			},
 			{
@@ -114,6 +114,38 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "arsomega:demon_biome",
+				"weight": 2
+			},
+			{
+				"data": "incendium:volcanic_deltas",
+				"weight": 2
+			},
+			{
+				"data": "incendium:quartz_flats",
+				"weight": 2
+			},
+			{
+				"data": "incendium:weeping_valley",
+				"weight": 2
+			},
+			{
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:toxic_heap",
+				"weight": 2
+			},
+			{
+				"data": "incendium:ash_barrens",
+				"weight": 2
+			},
+			{
+				"data": "incendium:infernal_dunes",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
 				"weight": 2
 			}
 		]
@@ -227,6 +259,38 @@ If your settings in this file seem to have to no effect on the generation of the
 			{
 				"data": "arsomega:demon_biome",
 				"weight": 2
+			},
+			{
+				"data": "incendium:volcanic_deltas",
+				"weight": 2
+			},
+			{
+				"data": "incendium:quartz_flats",
+				"weight": 2
+			},
+			{
+				"data": "incendium:weeping_valley",
+				"weight": 2
+			},
+			{
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:toxic_heap",
+				"weight": 2
+			},
+			{
+				"data": "incendium:ash_barrens",
+				"weight": 2
+			},
+			{
+				"data": "incendium:infernal_dunes",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
+				"weight": 2
 			}
 		]
 	},
@@ -254,7 +318,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:weeping_mire",
+				"data": "byg:brimstone_caverns",
+				"weight": 2
+			},
+			{
+				"data": "byg:subzero_hypogeal",
 				"weight": 2
 			},
 			{
@@ -262,27 +330,23 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "byg:brimstone_caverns",
+				"data": "byg:weeping_mire",
 				"weight": 2
 			},
 			{
-				"data": "byg:subzero_hypogeal",
-				"weight": 0
-			},
-			{
 				"data": "byg:warped_desert",
-				"weight": 0
-			},
-			{
-				"data": "byg:magma_wastes",
 				"weight": 2
 			},
 			{
 				"data": "byg:quartz_desert",
-				"weight": 0
+				"weight": 2
 			},
 			{
 				"data": "byg:crimson_gardens",
+				"weight": 2
+			},
+			{
+				"data": "byg:magma_wastes",
 				"weight": 2
 			},
 			{
@@ -323,6 +387,38 @@ If your settings in this file seem to have to no effect on the generation of the
 			},
 			{
 				"data": "arsomega:demon_biome",
+				"weight": 2
+			},
+			{
+				"data": "incendium:volcanic_deltas",
+				"weight": 2
+			},
+			{
+				"data": "incendium:quartz_flats",
+				"weight": 2
+			},
+			{
+				"data": "incendium:weeping_valley",
+				"weight": 2
+			},
+			{
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:toxic_heap",
+				"weight": 2
+			},
+			{
+				"data": "incendium:ash_barrens",
+				"weight": 2
+			},
+			{
+				"data": "incendium:infernal_dunes",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
 				"weight": 2
 			}
 		]
