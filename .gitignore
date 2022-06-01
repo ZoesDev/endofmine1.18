@@ -16,3 +16,5 @@ servers.dat
 usercache.json
 usernamecache.json
 *.bak
+emojiful/
+crash_reports/
