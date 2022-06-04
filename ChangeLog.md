@@ -3,13 +3,20 @@
 
 ### World files are not compatiable with new version. World gen issues and all
 
-## Known issues to stil be fixed
+## Known issues to still be fixed
 
 * some chests are empty when spawned into the world, despensers and wooden creates from IE
 * no fall damanage becuase of instance slow fall from something
 * doors have no noise
 * Old worlds do not load well
 * betterf3 is broken
+* Extended Crafting causes a crash when opening up with a stack of solar panels from solar flux reborn
+
+## Changes in Recipies
+
+* Most recipies are not changed but Creative items have been added
+* ProjectE Transmutation tablet and Tome of Knoweldge are gated behind other mods and end game stuff
+
 
 
 ## Mods that changed their name
@@ -36,7 +43,7 @@
 * structures' compass - duplicate items
 * structure compass - duplicate items
 * refined storage - removed infavor of jsut one system. AE2
-* sfm
+* super factory maker
 * simple magenets - Botania and others have a magnet
 * pylons
 * water strainer
@@ -47,10 +54,11 @@
 * dim storage
 * corial woodcutter
 * mrmcarw gun mod
-* charging gadgets
+* charging gadgets -- replaced with chargers from many differnt mods
 * compact ores - caused world creation crash
 * the wild update - caused world creation crash
 * CCI
+* BetterF3 -- Broken and cant open up
 
 
 
