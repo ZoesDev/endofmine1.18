@@ -82,79 +82,6 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: -5.0d
-			id: "4DF1EBEDA708F27E"
-			tasks: [{
-				id: "4D6923CB3ACB9D99"
-				type: "item"
-				item: {
-					id: "simplemagnets:basicmagnet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
-				{
-					id: "7C6340D69E309B7C"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7A845EFBE0B52593"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "22F7F725ECB74317"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "00271973DF909E32"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: -5.0d
-			dependencies: ["4DF1EBEDA708F27E"]
-			id: "3E7AA31C244534A8"
-			tasks: [{
-				id: "10FF75349B1221CB"
-				type: "item"
-				item: {
-					id: "simplemagnets:advancedmagnet"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [
-				{
-					id: "48EF0DDF251170C8"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "212F9808CE1D6A24"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "7387AA148228AEB8"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "05C588572A7841B1"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			x: -1.0d
 			y: -5.0d
 			description: ["Creative flight at your finger tips"]
@@ -251,38 +178,6 @@
 				}
 				{
 					id: "463D7AED2D1B070E"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -2.5d
-			id: "0A0193DE83355D4F"
-			tasks: [{
-				id: "6544CAA7A96BAF1C"
-				type: "item"
-				item: "structures_compass:structures_compass"
-			}]
-			rewards: [
-				{
-					id: "1BEAD9FD0CAEE127"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6CA33DE24CDD5AE9"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6840153686BE2FBC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "1A77E9414537BC80"
 					type: "xp"
 					xp: 100
 				}

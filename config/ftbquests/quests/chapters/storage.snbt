@@ -241,55 +241,6 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: -1.0d
-			description: ["Custom cross demension Ender storage and transport that can be locked to you only"]
-			id: "2575BEC2D3202C53"
-			tasks: [
-				{
-					id: "2629C148AE3038F9"
-					type: "item"
-					item: {
-						id: "endertanks:ender_tank"
-						Count: 1b
-						tag: {
-							owner: "all"
-							code: "000"
-						}
-					}
-				}
-				{
-					id: "0110B7C033C07AB0"
-					type: "item"
-					item: {
-						id: "enderchests:ender_chest"
-						Count: 1b
-						tag: {
-							owner: "all"
-							code: "000"
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "4AF32D9046B18189"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "26A70B242DAB72DB"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "215DBEA34FECC844"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
 			x: -3.5d
 			y: 2.0d
 			id: "4396B11A65520271"
@@ -790,41 +741,6 @@
 				}
 				{
 					id: "5C761CFE7B1D4AFF"
-					type: "xp"
-					xp: 100
-				}
-			]
-		}
-		{
-			x: -5.5d
-			y: -3.0d
-			description: ["Another form of a enderchest"]
-			id: "60F755C43D5E8F80"
-			tasks: [
-				{
-					id: "0670AD113AA73B91"
-					type: "item"
-					item: "dimstorage:dimensional_chest"
-				}
-				{
-					id: "265E50CEEE0AB5F8"
-					type: "item"
-					item: "dimstorage:dimensional_tank"
-				}
-			]
-			rewards: [
-				{
-					id: "498DA8CD40980EEF"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "21DE54A363CBC58F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "0E1315C38926B125"
 					type: "xp"
 					xp: 100
 				}
