@@ -27,20 +27,40 @@ onEvent('recipes', event => {
 
 
 event.recipes.extendedcrafting.shaped_table('projecte:transmutation_table', [
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKKKKKKK',
-  'KKKNKKKKK',
-  'KKKKKKKKE'
+  'ABCDEBA',
+  'BBFGHBB',
+  'BMINKMB',
+  'OPQRQSO',
+  'BMJTLMB',
+  'BBUVWBB',
+  'ABXYZBA'
 ], {
-  K: 'projecte:klein_star_ein',
-  N: 'minecraft:netherite_block',
-  E: 'minecraft:dragon_egg'
-
+  A: 'ae2:spatial_storage_cell_128',
+  B: 'extendedcrafting:ender_star',
+  C: 'naturesaura:netherite_finder',
+  D:'reliquary:alkahestry_tome',
+  E:'pipez:ultimate_upgrade',
+  F:'thermal:flux_magnet',
+  G:'botania:terra_pick',
+  H:'aiotbotania:alfsteel_aiot',
+  I:'mekanism:mekasuit_helmet',
+  J:'mekanism:mekasuit_bodyarmor',
+  K:'mekanism:mekasuit_pants',
+  L:'mekanism:mekasuit_boots',
+  M:'solarflux:sp_7',
+  N:'extendedcrafting:ultimate_singularity',
+  O:'industrialforegoing:supreme_black_hole_unit',
+  P:'ironfurnaces:million_furnace',
+  Q:'compressium:diamond_5',
+  R:'castle_in_the_sky:laputa_miniature',
+  S:'darkutils:charm_warding',
+  T:'aeinfinitybooster:dimension_card',
+  U:'beyond_earth:rocket_t4',
+  V:'luggage:luggage',
+  W:'mna:spectral_elytra',
+  X:'botania:magnet_ring_greater',
+  Y:'cookingforblockheads:cow_jar',
+  Z:'mythicbotany:mana_ring_greatest'
 })
 
 
