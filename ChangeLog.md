@@ -9,7 +9,6 @@
 * no fall damanage becuase of instance slow fall from something
 * doors have no noise
 * Old worlds do not load well
-* betterf3 is broken
 * Extended Crafting causes a crash when opening up with a stack of solar panels from solar flux reborn
 
 ## Changes in Recipies
@@ -22,6 +21,12 @@
 ## Mods that changed their name
 
 * Quarry Plus is now known as Additional Enchanted Miner
+
+## Mods that have to be manually downloaded in 3rd Party launchers
+### These mods have the 3rd party option disabled on Curseforge so you will have to add them manually depending on how your launcher handles it
+
+*
+
 
 ## Removed Mods
 
@@ -45,20 +50,20 @@
 * refined storage - removed infavor of jsut one system. AE2
 * super factory maker
 * simple magenets - Botania and others have a magnet
-* pylons
-* water strainer
-* utilitix
-* villager artifacts
-* structurize
-* potion master
-* dim storage
-* corial woodcutter
-* mrmcarw gun mod
+* pylons - Not utilized in this pack
+* water strainer - Not utilized in this pack
+* utilitix - Not utilized in this pack
+* villager artifacts - Not utilized in this pack
+* structurize - Not utilized in this pack
+* potion master - Not utilized in this pack
+* dim storage - Replaced with ender storage 1.8+
+* corial woodcutter - Not utilized in this pack
+* mrmcarw gun mod - Not utilized in this pack
 * charging gadgets -- replaced with chargers from many differnt mods
 * compact ores - caused world creation crash
 * the wild update - caused world creation crash
-* CCI
-* BetterF3 -- Broken and cant open up
+* CCI  - I didnt setup anything for it but can be re added later
+* BetterF3 -- conflict with antoher mod right now.
 
 
 
