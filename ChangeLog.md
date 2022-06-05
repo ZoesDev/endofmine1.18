@@ -64,11 +64,13 @@
 * the wild update - caused world creation crash
 * CCI  - I didnt setup anything for it but can be re added later
 * BetterF3 -- conflict with antoher mod right now.
-
-
+* All the Ores - Replaced with Auto Ore Dictionary Converter
+* Allthemodium - replaced with custom mod for ores
+* [SBM] Cardboard Boxes - Mekinism has this too.
 
 ## Added Mods
 
+* Auto Ore Dictionary Converter
 * Project extended
 * Project expansion
 * Thermal cultivation
@@ -77,7 +79,7 @@
 * Thermal innovation
 * Thermal innovation
 * Thermal locomotion
-* mekanism
+* Mekanism
 * Mekanism additions
 * Mekanism generators
 * Mekanism tools
