@@ -3,12 +3,24 @@
 
 ### World files are not compatiable with new version. World gen issues and all
 
+
+## Improvements
+
+* essentric tome filled out and given on first login
+* Some recipes are changed to make it more difficult
+* creative items are craftable
+* custom ores for this modpack
+* Server config is now fully built and useable from the get go unlike the setup I had before.
+* More quests done.
+
+
+
 ## Known issues to still be fixed
 
 * some chests are empty when spawned into the world, despensers and wooden creates from IE
 * no fall damanage becuase of instance slow fall from something
 * doors have no noise
-* Old worlds do not load well
+* Old worlds do not load well (probably wont be fixable)
 * Extended Crafting causes a crash when opening up with a stack of solar panels from solar flux reborn
 
 ## Changes in Recipies
@@ -30,6 +42,7 @@
 
 ## Removed Mods
 
+* Akashic  Tome -- Removed becuase of crashing and replaced with Eccentric Tome
 * item collectors - duplicated with mob utils
 * lucky blocks - replaced with chance cubes and loot bags as they are easier to wok with for questing
 * save your pets - causes issues with sacrificing mods
@@ -67,9 +80,11 @@
 * All the Ores - Replaced with Auto Ore Dictionary Converter
 * Allthemodium - replaced with custom mod for ores
 * [SBM] Cardboard Boxes - Mekinism has this too.
-
+* Deep Rennosonce - Many other options for power and items
 ## Added Mods
 
+* Yungs Better Desert Temple
+* Eccentric Tome
 * Auto Ore Dictionary Converter
 * Project extended
 * Project expansion
