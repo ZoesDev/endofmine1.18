@@ -80,7 +80,7 @@
     "allowDisassembly": true
   },
   "PowerRatios": {
-    "ForgeEnergy": 0.5,
+    "TechReborn": 2.0,
     "UsageMultiplier": 1.0
   },
   "Condenser": {
