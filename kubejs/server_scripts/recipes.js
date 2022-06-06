@@ -1,12 +1,4 @@
 onEvent('recipes', event => {
-	event.remove({output: 'projecte:transmutation_table'})
-
-
-
-
-
-
-
   //projecte transmutation table
   event.recipes.extendedcrafting.shaped_table('projecte:transmutation_table', [
     'ABCDEBA',
