@@ -14,7 +14,7 @@ onEvent('recipes', event => {
     C: 'naturesaura:netherite_finder',
     D: 'reliquary:alkahestry_tome',
     E: 'pipez:ultimate_upgrade',
-    F: 'thermal:flux_magnet',
+    F: 'mysticalagradditions:creative_essence',
     G: Item.of('botania:terra_pick').ignoreNBT(),
     H: Item.of('aiotbotania:alfsteel_aiot').ignoreNBT(),
     I: Item.of('mekanism:mekasuit_helmet').ignoreNBT(),
@@ -27,7 +27,7 @@ onEvent('recipes', event => {
     P: 'ironfurnaces:million_furnace',
     Q: 'compressium:diamond_5',
     R: 'castle_in_the_sky:laputa_miniature',
-    S: 'darkutils:charm_warding',
+    S: 'create:creative_motor',
     T: 'aeinfinitybooster:dimension_card',
     U: 'beyond_earth:rocket_t4',
     V: 'luggage:luggage',
@@ -36,6 +36,18 @@ onEvent('recipes', event => {
     Y: 'cookingforblockheads:cow_jar',
     Z: 'mythicbotany:mana_ring_greatest'
   })
+
+//chunkloaders Basic Chunk Loader
+event.shaped('chunkloaders:basic_chunk_loader', [
+  'WGW',
+  'GIG',
+  'WGW'
+],{
+  W: 'thermal:lumium_ingot',
+  G: 'quark:dragon_scale',
+  I: 'minecraft:dragon_breath'
+})
+
 
 // mystical agriculture
 event.recipes.extendedcrafting.shaped_table('mysticalagradditions:creative_essence', [

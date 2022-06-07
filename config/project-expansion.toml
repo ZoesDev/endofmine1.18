@@ -12,4 +12,5 @@ emcLinkEMCLimitMultiplier = 1
 powerflowerMultiplier = 1
 relayBonusMultiplier = 1
 relayTransferMultiplier = 1
+emcLinkFluidLimitMultiplier = 1
 
