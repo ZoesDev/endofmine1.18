@@ -6,18 +6,15 @@
 
 ## Improvements
 
-* essentric tome filled out and given on first login
 * Some recipes are changed to make it more difficult
 * creative items are craftable
 * custom ores for this modpack
 * Server config is now fully built and useable from the get go unlike the setup I had before.
-* More quests done.
 
 
 
 ## Known issues to still be fixed
 
-* some chests are empty when spawned into the world, despensers and wooden creates from IE
 * no fall damanage becuase of instance slow fall from something
 * doors have no noise
 * Old worlds do not load well (probably wont be fixable)
@@ -26,8 +23,7 @@
 ## Changes in Recipies
 
 * Most recipies are not changed but Creative items have been added
-* ProjectE Transmutation tablet and Tome of Knoweldge are gated behind other mods and end game stuff
-
+* ProjectE Transmutation tablet is gated behind other mods and end game stuff
 
 
 ## Mods that changed their name
@@ -83,6 +79,8 @@
 * Deep Rennosonce - Many other options for power and items
 ## Added Mods
 
+* Powah!
+* The Twilight Forest
 * Yungs Better Desert Temple
 * Eccentric Tome
 * Auto Ore Dictionary Converter

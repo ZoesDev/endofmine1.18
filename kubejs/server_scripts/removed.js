@@ -7,8 +7,8 @@ onEvent('recipes', event => {
   event.remove({output: 'chancecubes:chance_pendant_tier2'})
   event.remove({output: 'chancecubes:chance_pendant_tier1'})
   event.remove({output: 'fluidtank:fluid_source'})
-
-
+  event.remove({output: 'angelring:itemring'})
+  event.remove({output: 'projecte:watch_of_flowing_time'})
 
 
   })

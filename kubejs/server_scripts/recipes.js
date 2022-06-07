@@ -37,6 +37,259 @@ onEvent('recipes', event => {
     Z: 'mythicbotany:mana_ring_greatest'
   })
 
+// mystical agriculture
+event.recipes.extendedcrafting.shaped_table('mysticalagradditions:creative_essence', [
+  "   A   ",
+  "  ABA  ",
+  " ACDCA ",
+  "AECFCEA",
+  " ACDCA ",
+  "  ABA  ",
+  "   A   "
+], {
+  A: 'mysticalagradditions:insanium_essence',
+  B: 'mekanism:pellet_polonium',
+  C: 'mysticalagradditions:insanium_ingot',
+  D: 'mysticalagradditions:insanium_gemstone_block',
+  E: 'mysticalagradditions:insanium_coal',
+  F: 'mysticalagriculture:master_infusion_crystal'
+})
+
+
+event.shaped('angelring:itemring', [
+  'WGW',
+  'NIN',
+  'DGD'
+],{
+  W: 'reliquary:bat_wing',
+  G: 'minecraft:gold_block',
+  I: 'angelring:itemdiamondring',
+  D: 'quark:dragon_scale',
+  N: 'minecraft:netherite_block'
+})
+
+  //Iron Jetpacks
+  //need to figure out the nbt data
+  // event.shaped('ironjetpacks:cell', [
+  //   ' A ',
+  //   'BCB',
+  //   ' A '
+  // ], {
+  //   A: '#forge:storage_blocks/redstone',
+  //   B: 'end_of_mine_tweaks:unobtanium_block',
+  //   C: 'mekanism:pressurized_reaction_chamber'
+  // })
+  // event.shaped('ironjetpacks:creative_thruster', [
+  //   'ABA',
+  //   'BCB',
+  //   'ADA'
+  // ], {
+  //   A: 'end_of_mine_tweaks:unobtanium_block',
+  //   B: 'end_of_mine_tweaks:beskar_block',
+  //   C: 'ironjetpacks:creative_cell',
+  //   D: 'ironfurnaces:unobtainium_furnace'
+  // })
+  // event.shaped('ironjetpacks:creative_capacitor', [
+  //   'ADA',
+  //   'BEB',
+  //   'CFC'
+  // ], {
+  //   A: 'create:refined_radiance_casing',
+  //   B: 'create:shadow_steel_casing',
+  //   C: 'end_of_mine_tweaks:beskar_block',
+  //   D: 'industrialforegoing:mycelial_reactor',
+  //   E: 'mekanism:ultimate_induction_cell',
+  //   F: 'mekanism:pressurized_reaction_chamber'
+  // })
+  // event.shaped('ironjetpacks:creative_jetpack', [
+  //   'ACA',
+  //   'BFB',
+  //   'DED'
+  // ], {
+  //   A: 'mysticalagradditions:creative_essence',
+  //   B: 'end_of_mine_tweaks:unobtanium_block',
+  //   C: 'ironjetpacks:creative_capacitor',
+  //   D: 'ironjetpacks:creative_thruster',
+  //   E: 'compressium:netherite_9',
+  //   F: 'ironjetpacks:unobtainium_jetpack'
+  // })
+
+
+  //Create
+  event.recipes.create.mechanical_crafting('create:creative_motor', [
+    'ABA',
+    'CDC',
+    'BEB'
+  ], {
+    A: 'create:cogwheel',
+    B: 'create:large_cogwheel',
+    C: 'create:shaft',
+    D: 'compressium:netherite_7',
+    E: 'create:gearbox'
+  })
+
+//Botania
+event.recipes.extendedcrafting.shaped_table('botania:creative_pool', [
+  "ABCDEFG",
+  "HIIJIIK",
+  "LIMNMIO",
+  "PJNQNJR",
+  "SIMNMIT",
+  "UIIJIIV",
+  "WXYZ123"
+], {
+  A: 'botania:rune_winter',
+  B: 'botania:rune_mana',
+  C: 'botania:rune_lust',
+  D: 'botania:rune_gluttony',
+  E: 'botania:rune_greed',
+  F: 'botania:rune_sloth',
+  G: "botania:rune_wrath",
+  H: "botania:rune_envy",
+  I: "extendedcrafting:the_ultimate_ingot",
+  J: "botania:fabulous_pool",
+  K: "botania:rune_pride",
+  L: "mythicbotany:alfheim_rune",
+  M: "end_of_mine_tweaks:unobtanium_block",
+  N: "extendedcrafting:the_ultimate_component",
+  O: "mythicbotany:muspelheim_rune",
+  P: "mythicbotany:asgard_rune",
+  Q: "extendedcrafting:ultimate_singularity",
+  R: "mythicbotany:nidavellir_rune",
+  S: "mythicbotany:helheim_rune",
+  T: "botania:rune_fire",
+  U: "botania:rune_earth",
+  V: "botania:rune_air",
+  W: "botania:rune_spring",
+  X: "botania:rune_summer",
+  Y: "botania:rune_autumn",
+  Z: "mythicbotany:vanaheim_rune",
+  "1": "mythicbotany:niflheim_rune",
+  "2": "botania:rune_water",
+  "3": "mythicbotany:midgard_rune"
+})
+
+
+
+//extended crafting
+event.recipes.extendedcrafting.shaped_table('extendedcrafting:the_ultimate_ingot', [
+  "    A    ",
+  "   ABA   ",
+  "  CDEFC  ",
+  " CGHIJKC ",
+  "ALMNONPQA",
+  " CRAISTC ",
+  "  CUVWC  ",
+  "   AXA   ",
+  "    A    "
+], {
+  A: "mysticalagradditions:insanium_ingot",
+  B: "extendedcrafting:black_iron_ingot",
+  C: "mysticalagradditions:creative_essence",
+  D: "tconstruct:amethyst_bronze_ingot",
+  E: "silentgear:blaze_gold_ingot",
+  F: "extendedcrafting:enhanced_ender_ingot",
+  G: "botania:terrasteel_ingot",
+  H: "extendedcrafting:crystaltine_ingot",
+  I: "mysticalagradditions:insanium_gemstone_block",
+  J: "botania:gaia_ingot",
+  K: "extendedcrafting:ender_ingot",
+  L: "extendedcrafting:crystaltine_catalyst",
+  M: "extendedcrafting:ender_star",
+  N: "mekanism:pellet_polonium",
+  O: "extendedcrafting:ultimate_singularity",
+  P: "extendedcrafting:black_iron_ingot",
+  Q: "minecraft:netherite_ingot",
+  R: "industrialforegoing:pink_slime_ingot",
+  S: "mekanism:ingot_refined_obsidian",
+  T: "mysticalagriculture:soulium_ingot",
+  U: "botania:elementium_ingot",
+  V: "extendedcrafting:redstone_ingot",
+  W: "biggerreactors:cyanite_ingot",
+  X: "extendedcrafting:luminessence"
+})
+
+//projecte
+
+event.recipes.extendedcrafting.shaped_table('projecte:watch_of_flowing_time', [
+  "  AAA  ",
+  " ABCBA ",
+  "ABDEDBA",
+  "ACFGFCA",
+  "ABDEDBA",
+  " ABCBA ",
+  "  AAA  "
+], {
+  A: "projecte:dark_matter_block",
+  B: "mysticalagradditions:creative_essence",
+  C: "extendedcrafting:enhanced_ender_ingot",
+  D: "extendedcrafting:ender_star",
+  E: "extendedcrafting:the_ultimate_catalyst",
+  F: "extendedcrafting:enhanced_ender_ingot",
+  G: "botania:terrasteel_ingot"
+})
+
+
+
+
+
+//mekanism
+
+event.recipes.extendedcrafting.shaped_table('mekanism:creative_chemical_tank', [
+  "    A    ",
+  "   ABA   ",
+  "  ABCBA  ",
+  "  ACDCA  ",
+  "AAADEDAAA",
+  "  ACDCA  ",
+  "  ABCBA  ",
+  "   ABA   ",
+  "    A    "
+], {
+  A: "mekanism:ultimate_chemical_tank",
+  B: "mekanism:ultimate_tier_installer",
+  C: "mekanism:pellet_polonium",
+  D: "extendedcrafting:the_ultimate_ingot",
+  E: "extendedcrafting:ultimate_singularity"
+})
+
+event.recipes.extendedcrafting.shaped_table('mekanism:creative_fluid_tank', [
+  "ABCDEFGHA",
+  "AIIJKJIIA",
+  "AIJKLKJIA",
+  "AJKLMLKJA",
+  "AKLNONLKA",
+  "AJKLMLKJA",
+  "AIJKLKJIA",
+  "AIIJKJIIA",
+  "APEQRSTUA"
+], {
+  A: "mekanism:ultimate_fluid_tank",
+  B: "materialis:molten_froststeel_bucket",
+  C: "tinkers_reforged:molten_shulker_bucket",
+  D: "botania:open_bucket",
+  E: "mekanismgenerators:deuterium_bucket",
+  F: "cyclic:magma_bucket",
+  G: "cyclic:xpjuice_bucket",
+  H: "industrialforegoing:sludge_bucket",
+  I: "mekanism:alloy_reinforced",
+  J: "ae2:fluid_storage_cell_256k",
+  K: "extendedcrafting:luminessence",
+  L: "extendedcrafting:the_ultimate_ingot",
+  M: "mysticalagradditions:creative_essence",
+  N: "rftoolsbuilder:shape_card_pump",
+  O: "extendedcrafting:ultimate_singularity",
+  P: "industrialforegoing:latex_bucket",
+  Q: "industrialforegoing:meat_bucket",
+  R: "thermal:syrup_bucket",
+  S: "thermal:resin_bucket",
+  T: "pneumaticcraft:oil_bucket",
+  U: "industrialforegoing:ether_gas_bucket"
+})
+
+
+
+
 
 
   })
