@@ -1,7 +1,7 @@
 
 [general]
 	#Enable/Disable Serverside Overrides
-	enabled = false
+	enabled = true
 	#Internal Version Number. NO TOUCHY!
 	version = 1
 

@@ -1,7 +1,7 @@
 
 # THE 1.0 Update
 
-### World files are not compatiable with new version. World gen issues and all
+### World files are not compatible with new version. World gen issues and all
 
 
 ## Improvements
@@ -9,20 +9,19 @@
 * Some recipes are changed to make it more difficult
 * creative items are craftable
 * custom ores for this modpack
-* Server config is now fully built and useable from the get go unlike the setup I had before.
+* Server config is now fully built and usable from the get go unlike the setup I had before.
 
 
 
 ## Known issues to still be fixed
 
-* no fall damanage becuase of instance slow fall from something
 * doors have no noise
 * Old worlds do not load well (probably wont be fixable)
 * Extended Crafting causes a crash when opening up with a stack of solar panels from solar flux reborn
 
-## Changes in Recipies
+## Changes in Recipes
 
-* Most recipies are not changed but Creative items have been added
+* Most recipes are not changed but Creative items have been added
 * ProjectE Transmutation tablet is gated behind other mods and end game stuff
 
 
@@ -33,18 +32,39 @@
 ## Mods that have to be manually downloaded in 3rd Party launchers
 ### These mods have the 3rd party option disabled on Curseforge so you will have to add them manually depending on how your launcher handles it
 
-*
-
+* https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated/
+* https://www.curseforge.com/minecraft/mc-mods/library-ferret-forge/
+* https://www.curseforge.com/minecraft/mc-mods/easier-sleeping/
+* https://www.curseforge.com/minecraft/mc-mods/macaws-roofs-biomes-o-plenty/
+* https://www.curseforge.com/minecraft/mc-mods/nourished-nether/
+* https://www.curseforge.com/minecraft/mc-mods/macaws-roofs-oh-the-biomes-youll-go/
+* https://www.curseforge.com/minecraft/mc-mods/butchers-delight/
+* https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended/
+* https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core/
+* https://www.curseforge.com/minecraft/mc-mods/eccentric-tome/
+* https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-edition-ocean-forge/
+* https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-nether-forge/
+* https://www.curseforge.com/minecraft/mc-mods/awesome-dungeon-the-end-forge/
+* https://www.curseforge.com/minecraft/mc-mods/macaws-fences-biomes-o-plenty/
+* https://www.curseforge.com/minecraft/mc-mods/macaws-bridges-biome-o-plenty/
+* https://www.curseforge.com/minecraft/mc-mods/macaws-fences-oh-the-biomes-youll-go/
+* https://www.curseforge.com/minecraft/mc-mods/tcintegrations/
+* https://www.curseforge.com/minecraft/mc-mods/hexerei/
+* https://www.curseforge.com/minecraft/mc-mods/alexs-delight/
+* https://www.curseforge.com/minecraft/mc-mods/cultural-delights/
+* https://www.curseforge.com/minecraft/mc-mods/fancymenu-forge/
+* https://www.curseforge.com/minecraft/mc-mods/ftb-backups-2/
+* https://www.curseforge.com/minecraft/mc-mods/enlightened-end/
 
 ## Removed Mods
 
-* Akashic  Tome -- Removed becuase of crashing and replaced with Eccentric Tome
+* Akashic  Tome -- Removed because of crashing and replaced with Eccentric Tome
 * item collectors - duplicated with mob utils
 * lucky blocks - replaced with chance cubes and loot bags as they are easier to wok with for questing
 * save your pets - causes issues with sacrificing mods
 * Tom's Simple Storage Mod - not really needed
 * trashslot - duplicate mod
-* minecoloines - Caused lagg issues on test server with AI issues
+* minecoloines - Caused lag issues on test server with AI issues
 * refined storage addons - removed refined storage
 * refined storage requsitify - removed refined storage
 * rsinfinityboaster - removed refined storage
@@ -56,9 +76,9 @@
 * creative wireless transmitter - removed refined storage
 * structures' compass - duplicate items
 * structure compass - duplicate items
-* refined storage - removed infavor of jsut one system. AE2
+* refined storage - removed in favor of just one system. AE2
 * super factory maker
-* simple magenets - Botania and others have a magnet
+* simple magnets - Botania and others have a magnet
 * pylons - Not utilized in this pack
 * water strainer - Not utilized in this pack
 * utilitix - Not utilized in this pack
@@ -68,19 +88,18 @@
 * dim storage - Replaced with ender storage 1.8+
 * corial woodcutter - Not utilized in this pack
 * mrmcarw gun mod - Not utilized in this pack
-* charging gadgets -- replaced with chargers from many differnt mods
+* charging gadgets -- replaced with chargers from many different mods
 * compact ores - caused world creation crash
 * the wild update - caused world creation crash
 * CCI  - I didnt setup anything for it but can be re added later
-* BetterF3 -- conflict with antoher mod right now.
+* BetterF3 -- conflict with another mod right now.
 * All the Ores - Replaced with Auto Ore Dictionary Converter
 * Allthemodium - replaced with custom mod for ores
 * [SBM] Cardboard Boxes - Mekinism has this too.
-* Deep Rennosonce - Many other options for power and items
+* Deep Resonance - Many other options for power and items
 ## Added Mods
 
-* Powah!
-* The Twilight Forest
+
 * Yungs Better Desert Temple
 * Eccentric Tome
 * Auto Ore Dictionary Converter
@@ -119,7 +138,6 @@
 * Nourished Nether
 * Plus the end
 * Project: Vibrant Journeys
-* Terralith
 * The ocean expansion
 * The undergarden
 * Ecologics
@@ -188,7 +206,6 @@
 * better Loading screen
 * Equipment compare
 * Falling leaves
-* Armor Status HUD Renewed
 * Neat
 * Toast control
 * Torrohealth damage indicators
@@ -209,14 +226,10 @@
 * Additional Lights
 * Tinkers' Integrations and Tweaks
 * PackagedExCrafting
-* tetra
-* Art of Forging: A Tetra Addon
 * Roost Ultimate
 * Ender Storage 1.8.+
 * Iron Apples
-* Armor Status HUD Renewed
 * Thermal Integration
 * ProjectE Integration
 * Incendium
-* Serene Seasons
 * Industrial foregoing
