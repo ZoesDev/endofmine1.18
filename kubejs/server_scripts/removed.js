@@ -9,6 +9,6 @@ onEvent('recipes', event => {
   event.remove({output: 'fluidtank:fluid_source'})
   event.remove({output: 'angelring:itemring'})
   event.remove({output: 'projecte:watch_of_flowing_time'})
-
+  event.remove({output: 'chunkloaders:basic_chunk_loader'})
 
   })
