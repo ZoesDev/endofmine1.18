@@ -50,14 +50,14 @@
 
 		[common-server.world.village]
 			#Weight of the Totem Building inside the Village
-			#Range: > 0
+			#Range: 0 ~ 140
 			totemWeight = 20
 			#Chance for a totem to have a faction after generation
 			#Range: 0.0 ~ 1.0
 			villageTotemFactionChance = 0.6
 			#Weight of the Hunter Trainer Building inside the Village
-			#Range: > 0
-			villageHunterTrainerWeight = 150
+			#Range: 0 ~ 140
+			villageHunterTrainerWeight = 140
 			#Whether village Temples should be replaced with versions that contain church altars.
 			villageReplaceTemples = true
 

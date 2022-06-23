@@ -1,3 +1,62 @@
+# 1.1 UPDATE
+
+
+## Recipe Changes
+
+* RFtools Dimension builder is harder to make
+* Structures compass and Nature compass are gated behind end dragon fights
+* Mystical agiculture is able to be used in garden Colches
+* Mislanious Ore Unifing
+* fixed no recipe for mycelial reactor
+
+## Mods Added
+
+* Twilight Forest
+* Flux Networks
+* Blood Magic
+* Seamless Loading Screen
+
+
+
+
+
+
+* fixed spawning of blue skies in twiglight forest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #Quick fix to fix server issues, recipies that were broken, and updated mods
 

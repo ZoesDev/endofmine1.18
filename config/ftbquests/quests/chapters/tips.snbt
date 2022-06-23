@@ -67,7 +67,14 @@
 			tasks: [{
 				id: "7BEB4A5B27D85533"
 				type: "item"
-				item: "akashictome:tome"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+						"eccentrictome:version": 1
+					}
+				}
 			}]
 			rewards: [
 				{
