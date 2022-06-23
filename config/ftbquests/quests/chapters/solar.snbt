@@ -16,50 +16,81 @@
 				type: "item"
 				item: "solarflux:sp_1"
 			}]
+			rewards: [{
+				id: "3494EB3848A414D5"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
 		}
 		{
 			x: -4.5d
 			y: -4.0d
+			dependencies: ["396A8DECAB877978"]
 			id: "2B115EBC27C39086"
 			tasks: [{
 				id: "66B01BE9D98F85BA"
 				type: "item"
 				item: "solarflux:sp_2"
 			}]
+			rewards: [{
+				id: "7D55455E4589D019"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
 		}
 		{
 			x: -2.5d
 			y: -4.0d
+			dependencies: ["2B115EBC27C39086"]
 			id: "6FCD726B9CEA6071"
 			tasks: [{
 				id: "6BC5F9B5A05FA252"
 				type: "item"
 				item: "solarflux:sp_3"
 			}]
+			rewards: [{
+				id: "518D3014FF4938C0"
+				type: "item"
+				item: "chancecubes:chance_cube"
+				count: 3
+			}]
 		}
 		{
 			x: -0.5d
 			y: -4.0d
+			dependencies: ["6FCD726B9CEA6071"]
 			id: "4C056BE9D3960E31"
 			tasks: [{
 				id: "0B108243F016F5C0"
 				type: "item"
 				item: "solarflux:sp_4"
 			}]
+			rewards: [{
+				id: "5A24B19A82C285C6"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
 		}
 		{
 			x: 1.0d
 			y: -4.0d
+			dependencies: ["4C056BE9D3960E31"]
 			id: "4B0A2422CDE34F3A"
 			tasks: [{
 				id: "2C26433500987EBC"
 				type: "item"
 				item: "solarflux:sp_5"
 			}]
+			rewards: [{
+				id: "1C6D3748A759377A"
+				type: "item"
+				item: "chancecubes:chance_icosahedron"
+			}]
 		}
 		{
 			x: 3.0d
 			y: -4.0d
+			dependencies: ["4B0A2422CDE34F3A"]
 			id: "4716FF595A870CF4"
 			tasks: [{
 				id: "1D5C7F4C7FE9A0BD"
@@ -70,21 +101,33 @@
 		{
 			x: 4.5d
 			y: -4.0d
+			dependencies: ["4716FF595A870CF4"]
 			id: "793CCE7AE6C05833"
 			tasks: [{
 				id: "4630E4816839E22D"
 				type: "item"
 				item: "solarflux:sp_7"
 			}]
+			rewards: [{
+				id: "11284494A62A445F"
+				type: "item"
+				item: "chancecubes:chance_icosahedron"
+			}]
 		}
 		{
 			x: 6.0d
 			y: -4.0d
+			dependencies: ["793CCE7AE6C05833"]
 			id: "1EF83369C33EED7B"
 			tasks: [{
 				id: "63C7D16D7D7A857D"
 				type: "item"
 				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "4EA15CDBB4A21220"
+				type: "item"
+				item: "chancecubes:chance_icosahedron"
 			}]
 		}
 	]

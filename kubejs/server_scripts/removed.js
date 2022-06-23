@@ -10,5 +10,11 @@ onEvent('recipes', event => {
   event.remove({output: 'angelring:itemring'})
   event.remove({output: 'projecte:watch_of_flowing_time'})
   event.remove({output: 'chunkloaders:basic_chunk_loader'})
+  event.remove({output: 'rftoolsdim:dimension_builder'})
+  event.remove({output: 'naturescompass:naturescompass'})
+  event.remove({output: 'explorerscompass:explorerscompass'})
+
+
+
 
   })

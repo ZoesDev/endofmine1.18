@@ -300,8 +300,184 @@ event.recipes.extendedcrafting.shaped_table('mekanism:creative_fluid_tank', [
 })
 
 
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ABCDCBA",
+    "EFGHGFE",
+    "CGIJIGC",
+    "DHJKJHD",
+    "CGIJIGC",
+    "EFGHGFE",
+    "ABCDCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "B": {
+      "item": "mekanism:creative_fluid_tank"
+    },
+    "C": {
+      "item": "mekanism:ultimate_tier_installer"
+    },
+    "D": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "E": {
+      "item": "angelring:itemring"
+    },
+    "F": {
+      "item": "extendedcrafting:frame"
+    },
+    "G": {
+      "item": "extendedcrafting:crystaltine_catalyst"
+    },
+    "H": {
+      "item": "industrialforegoing:mycelial_reactor"
+    },
+    "I": {
+      "item": "create:creative_motor"
+    },
+    "J": {
+      "item": "rftoolsdim:dimension_builder"
+    },
+    "K": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "type": "forge:nbt",
+    "item": "mekanism:creative_energy_cube",
+    "count": 1,
+    "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+  }
+})
 
 
+
+// RFtools dimensions
+event.recipes.extendedcrafting.shaped_table('rftoolsdim:dimension_builder', [
+  "DDDDD",
+  "DFGFD",
+  "DABAD",
+  "DCECD",
+  "DDDDD"
+
+], {
+  A: "minecraft:diamond",
+  B: "rftoolsbase:machine_frame",
+  C: "minecraft:gold_ingot",
+  D: "mysticalagradditions:insanium_essence",
+  E: "mysticalagradditions:creative_essence",
+  F: "minecraft:ender_pearl",
+  G: "minecraft:emerald"
+})
+
+
+//Nautures compass
+event.shaped('naturescompass:naturescompass', [
+  'WGW',
+  'GIG',
+  'WGW'
+],{
+  W: '#minecraft:saplings',
+  G: 'minecraft:dragon_breath',
+  I: 'minecraft:compass'
+})
+
+
+//Explorers compass
+event.shaped('explorerscompass:explorerscompass', [
+  'WGW',
+  'GIG',
+  'WGW'
+],{
+  W: 'minecraft:dragon_breath',
+  G: 'minecraft:cracked_stone_bricks',
+  I: 'minecraft:compass'
+})
+
+
+
+
+
+event.custom({
+  "type": "create:mechanical_crafting",
+  "pattern": [
+      "ABCDE",
+      "FGHGI",
+      "JKLKJ",
+      "MNHNO",
+      "PQRST"
+  ],
+  "key": {
+    "A": {
+      "item": "industrialforegoing:mycelial_ender"
+    },
+    "B": {
+      "item": "industrialforegoing:mycelial_explosive"
+    },
+    "C": {
+      "item": "industrialforegoing:mycelial_halitosis"
+    },
+    "D": {
+      "item": "industrialforegoing:mycelial_magma"
+    },
+    "E": {
+      "item": "industrialforegoing:mycelial_crimed"
+    },
+    "F": {
+      "item": "industrialforegoing:mycelial_netherstar"
+    },
+    "G": {
+      "item": "mekanismgenerators:fusion_reactor_controller"
+    },
+    "H": {
+      "item": "create:creative_motor"
+    },
+    "I": {
+      "item": "industrialforegoing:mycelial_slimey"
+    },
+    "J": {
+      "item": "malum:stained_spirit_resonator"
+    },
+    "K": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "L": {
+      "tag": "forge:gears/crystaltine"
+    },
+    "M": {
+      "item": "industrialforegoing:mycelial_disenchantment"
+    },
+    "N": {
+      "item": "mekanismgenerators:fusion_reactor_frame"
+    },
+    "O": {
+      "item": "industrialforegoing:mycelial_rocket"
+    },
+    "P": {
+      "item": "industrialforegoing:mycelial_potion"
+    },
+    "Q": {
+      "item": "industrialforegoing:mycelial_culinary"
+    },
+    "R": {
+      "item": "industrialforegoing:mycelial_furnace"
+    },
+    "S": {
+      "item": "industrialforegoing:mycelial_death"
+    },
+    "T": {
+      "item": "industrialforegoing:mycelial_meatallurgic"
+    }
+  },
+  "result": {
+      "item": "industrialforegoing:mycelial_reactor",
+      "count": 1
+  }
+})
 
 
   })
