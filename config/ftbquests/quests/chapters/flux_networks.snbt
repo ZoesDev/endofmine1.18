@@ -1,0 +1,267 @@
+{
+	id: "00000000000002E7"
+	group: "69589C2802F20EC3"
+	order_index: 1
+	filename: "flux_networks"
+	title: "Flux Networks"
+	icon: "fluxnetworks:flux_core"
+	subtitle: ["Build Wireless Energy Networks, customize them and manage."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Obtain some Flux"
+			description: [
+				"Obtained by dropping redstone between Obsidian \\& Bedrock."
+				""
+				"Obsidian on top and bedrock on the bottom- drop redstone between them and then left click the obsidian."
+				""
+				"&o*loud noises*- Flux!"
+				""
+				"There is no limit to the amount of Redstone Dust you can use, each time."
+				""
+				"&7Reward: 2 EXP Levels"
+			]
+			size: 1.25d
+			id: "00000000000002E8"
+			tasks: [{
+				id: "00000000000002E9"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+			rewards: [{
+				id: "00000000000002EA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Required to activate Cross-dimensional inventory charging."
+			description: [
+				"Inventory charging can be configured in the Wireless Charging Tab."
+				" "
+				"Only one controller can be connected to a network at one time."
+				""
+				"The controller's 'Output' refers to energy outputted from the network via Wireless Charging."
+				" "
+				"&lNetwork's do not require a Flux &lController to operate"
+				""
+			]
+			dependencies: ["00000000000002EE"]
+			id: "00000000000002EC"
+			tasks: [{
+				id: "00000000000002ED"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "1AA740CF53C70790"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			title: "Flux Core"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "The key crafting ingredient for Flux Networks"
+			description: [
+				"Read more about Flux Networks on their Wiki: https://github.com/SonarSonic/Flux-Networks/wiki"
+				""
+				"&7Reward: 5 EXP Levels"
+			]
+			dependencies: ["00000000000002E8"]
+			id: "00000000000002EE"
+			tasks: [{
+				id: "00000000000002EF"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "00000000000002F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "34E8B93DB6FE3C77"
+					type: "item"
+					item: "chancecubes:chance_cube"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"&oTransfer Limit: 20000"
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&lNetwork's do not require a Flux &lStorage to operate."
+				""
+			]
+			dependencies: ["00000000000002EE"]
+			id: "00000000000002F0"
+			tasks: [{
+				id: "00000000000002F1"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [{
+				id: "7355C76F7C0F588F"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			subtitle: "Used for Adding Energy to the network"
+			description: [
+				"(You can add energy from all sides simultaneously.)"
+				""
+			]
+			dependencies: ["00000000000002EE"]
+			id: "00000000000002F4"
+			tasks: [{
+				id: "00000000000002F5"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "3816688971D23515"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "Used to Remove Energy from the network"
+			description: ["(You can remove energy from all sides simultaneously.)"]
+			dependencies: ["00000000000002EE"]
+			id: "00000000000002F6"
+			tasks: [{
+				id: "00000000000002F7"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "4415CBD96CCEF0C9"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Can be used to access, edit, delete networks on the go."
+			description: [
+				"It can also be used to copy / paste settings between connectors."
+				""
+				"Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to."
+				""
+				"If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste."
+				""
+				"The configurator can also be renamed here, with the name field."
+				""
+				"&7Reward: 5 EXP Levels \\& 2x Treasure &7Chests."
+			]
+			dependencies: ["00000000000002E8"]
+			optional: true
+			id: "00000000000002FC"
+			tasks: [{
+				id: "00000000000002FD"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [{
+				id: "0000000000000300"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"&oTransfer Limit: 120000"
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&lNetwork's do not require a Flux &lStorage to operate."
+			]
+			dependencies: ["00000000000002F0"]
+			optional: true
+			id: "0000000000000302"
+			tasks: [{
+				id: "0000000000000303"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [{
+				id: "12E6726A32A0A309"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"&oTransfer Limit: 1440000"
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&lNetwork's do not require a Flux &lStorage to operate."
+			]
+			dependencies: ["0000000000000302"]
+			optional: true
+			id: "0000000000000304"
+			tasks: [{
+				id: "0000000000000305"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "26D546EA1038AF12"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Another key crafting ingredients of Flux Networks!"
+			description: [""]
+			dependencies: ["00000000000002EE"]
+			id: "0000000000000308"
+			tasks: [{
+				id: "0000000000000309"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [{
+				id: "66A1C25173CB9436"
+				type: "item"
+				item: "chancecubes:chance_cube"
+			}]
+		}
+	]
+}

@@ -3,7 +3,7 @@
 	group: "2A152E5573DE96DB"
 	order_index: 0
 	filename: "cooking_for_block_heads"
-	title: "Cooking For Block Heads"
+	title: "Food"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -142,6 +142,17 @@
 					xp: 100
 				}
 			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["how did the cow fit in the jar?"]
+			id: "5E2AA59D56612F00"
+			tasks: [{
+				id: "5E3537BDB2C6D2BB"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
 		}
 	]
 }

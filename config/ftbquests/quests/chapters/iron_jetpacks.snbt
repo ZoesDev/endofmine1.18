@@ -1,7 +1,7 @@
 {
 	id: "1C0948868DAE31FF"
 	group: "3774C369111B5F5A"
-	order_index: 2
+	order_index: 1
 	filename: "iron_jetpacks"
 	title: "Iron Jetpacks"
 	default_quest_shape: ""
@@ -27,6 +27,10 @@
 		{
 			x: -2.0d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"2EFCD71C65351345"
+			]
 			id: "376A7F2700338619"
 			tasks: [{
 				id: "351B6AE3CF0C9517"
@@ -44,6 +48,10 @@
 		{
 			x: -0.5d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"376A7F2700338619"
+			]
 			id: "61942BB0BE421D29"
 			tasks: [{
 				id: "0A7C216A4498DF51"
@@ -61,6 +69,10 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"61942BB0BE421D29"
+			]
 			id: "65D5F81B1A32B343"
 			tasks: [{
 				id: "108B0B7ED33CFA9A"
@@ -78,6 +90,10 @@
 		{
 			x: 2.5d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"65D5F81B1A32B343"
+			]
 			id: "0A5B6563FA1A293E"
 			tasks: [{
 				id: "2AAC2CFCE56FA745"
@@ -95,6 +111,10 @@
 		{
 			x: 4.0d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"0A5B6563FA1A293E"
+			]
 			id: "2765F896BEE83F5B"
 			tasks: [{
 				id: "7FAB595E027AC764"
@@ -112,6 +132,10 @@
 		{
 			x: 5.0d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"2765F896BEE83F5B"
+			]
 			id: "4C58A2E9406DA4DB"
 			tasks: [{
 				id: "5B0E5BD5BDFE6521"
@@ -129,6 +153,10 @@
 		{
 			x: 6.0d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"4C58A2E9406DA4DB"
+			]
 			id: "71BFA746A920B969"
 			tasks: [{
 				id: "322232CFDA2A9525"
@@ -146,6 +174,10 @@
 		{
 			x: 7.0d
 			y: -0.5d
+			dependencies: [
+				"7762610A8177F28B"
+				"71BFA746A920B969"
+			]
 			id: "0F21D5A9B64657DD"
 			tasks: [{
 				id: "381C163FD5530262"

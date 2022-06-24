@@ -1,7 +1,7 @@
 {
 	id: "02A12D57134CB142"
 	group: "3774C369111B5F5A"
-	order_index: 1
+	order_index: 0
 	filename: "pipez"
 	title: "Pipez"
 	default_quest_shape: ""
@@ -32,6 +32,7 @@
 		{
 			x: -3.5d
 			y: 0.5d
+			dependencies: ["00B102E434ECDEA3"]
 			id: "2377D462EE65CB3D"
 			tasks: [{
 				id: "07F0A3B765BFA0A1"
@@ -42,6 +43,7 @@
 		{
 			x: -3.5d
 			y: 2.0d
+			dependencies: ["2377D462EE65CB3D"]
 			id: "504862560F143F51"
 			tasks: [{
 				id: "32C74F9551F5D187"
@@ -52,6 +54,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
+			dependencies: ["504862560F143F51"]
 			id: "7762610A8177F28B"
 			tasks: [{
 				id: "1D89F1CC2E1C4E8A"
@@ -62,11 +65,17 @@
 		{
 			x: -3.0d
 			y: 4.5d
+			dependencies: ["7762610A8177F28B"]
 			id: "11824B8FEF5F59F1"
 			tasks: [{
 				id: "00A728981E1FAF9C"
 				type: "item"
 				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "3D2BDA117086BFCD"
+				type: "item"
+				item: "chancecubes:chance_cube"
 			}]
 		}
 		{
