@@ -5,7 +5,7 @@
 
 * RFtools Dimension builder is harder to make
 * Structures compass and Nature compass are gated behind end dragon fights
-* Mystical agiculture is able to be used in garden Colches
+* Mystical agiculture is now able to be used in garden Colches
 * Mislanious Ore Unifing
 * fixed no recipe for mycelial reactor
 
@@ -16,13 +16,10 @@
 * Blood Magic
 * Seamless Loading Screen
 
+## Quests
 
-
-
-
-
-* fixed spawning of blue skies in twiglight forest
-
+* Added a few quests
+* fixed a few errors in quests
 
 
 

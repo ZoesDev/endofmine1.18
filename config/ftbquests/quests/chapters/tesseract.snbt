@@ -1,7 +1,7 @@
 {
 	id: "1BDA0D217D9769C0"
-	group: "3774C369111B5F5A"
-	order_index: 0
+	group: "69589C2802F20EC3"
+	order_index: 2
 	filename: "tesseract"
 	title: "Tesseract"
 	default_quest_shape: ""
@@ -15,6 +15,11 @@
 			id: "00F1521A13DB7377"
 			type: "item"
 			item: "tesseract:tesseract"
+		}]
+		rewards: [{
+			id: "4B7372B080F2EE28"
+			type: "item"
+			item: "chancecubes:chance_cube"
 		}]
 	}]
 }

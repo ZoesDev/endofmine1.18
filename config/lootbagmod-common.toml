@@ -22,9 +22,9 @@
 	["Loot Bag Mod Config"."Black And White Lists"]
 		#Use the whitelist
 		enablewhitelist = false
-		#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
-		blacklist = ["lootbagmod:lootbag", "minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock"]
-		#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
+		#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "chancecubes:chance_cube")
+		blacklist = ["chancecubes:chance_cube", "minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock"]
+		#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or chancecubes:chance_cube)
 		whitelist = ["minecraft:stone", "minecraft:nether_star"]
 
 	["Loot Bag Mod Config"."Mod List"]

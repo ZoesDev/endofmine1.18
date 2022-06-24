@@ -479,5 +479,42 @@ event.custom({
   }
 })
 
+//STTORAGE DRAWERS
+event.recipes.extendedcrafting.shaped_table('storagedrawers:creative_storage_upgrade', [
+  "AAAAA",
+  "ABCBA",
+  "ACDCA",
+  "ABCBA",
+  "AAAAA"
+
+], {
+  A: "storagedrawers:emerald_storage_upgrade",
+  B: "mysticalagradditions:creative_essence",
+  C: "end_of_mine_tweaks:instantanium_block",
+  D: "extendedcrafting:ultimate_singularity"
+})
+
+//PIPEZ
+event.recipes.extendedcrafting.shaped_table('pipez:infinity_upgrade', [
+  "AAAAA",
+  "ABCBA",
+  "ACDCA",
+  "ABCBA",
+  "AAAAA"
+
+], {
+  A: "pipez:ultimate_upgrade",
+  B: "mysticalagradditions:creative_essence",
+  C: "end_of_mine_tweaks:instantanium_block",
+  D: "extendedcrafting:ultimate_singularity"
+})
+
+
+
+
+
+
+
+
 
   })
