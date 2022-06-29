@@ -1,4 +1,14 @@
-# 1.2 UPDATE
+# 1.2 UPDATE. The Stabler update.
+
+## Main functions of this update are to update mods, forge and to try and make the pack more stable and less memory intensive.
+
+
+## Miscellaneous Changes
+
+* Config files are cleaned up from all the random testing
+* Update configs to be better balanced and remove annoyances
+* cleared majority of mods keybindings for first install to clear up conflicts.
+
 
 ## Recipe changes
 
@@ -56,10 +66,6 @@
 
 
 
-## Miscellaneous Changes
-
-* Config files are cleaned up from all the random testing
-* Update configs to be better balanced and remove annoyances
 
 
 
