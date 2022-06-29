@@ -113,11 +113,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:withered_forest",
+				"data": "incendium:ash_barrens",
 				"weight": 2
 			},
 			{
-				"data": "incendium:ash_barrens",
+				"data": "incendium:quartz_flats",
 				"weight": 2
 			},
 			{
@@ -125,7 +125,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:infernal_dunes",
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
 				"weight": 2
 			},
 			{
@@ -133,15 +137,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:inverted_forest",
-				"weight": 2
-			},
-			{
 				"data": "incendium:volcanic_deltas",
 				"weight": 2
 			},
 			{
-				"data": "incendium:quartz_flats",
+				"data": "incendium:infernal_dunes",
 				"weight": 2
 			}
 		]
@@ -253,11 +253,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:withered_forest",
+				"data": "incendium:ash_barrens",
 				"weight": 2
 			},
 			{
-				"data": "incendium:ash_barrens",
+				"data": "incendium:quartz_flats",
 				"weight": 2
 			},
 			{
@@ -265,7 +265,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:infernal_dunes",
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
 				"weight": 2
 			},
 			{
@@ -273,15 +277,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:inverted_forest",
-				"weight": 2
-			},
-			{
 				"data": "incendium:volcanic_deltas",
 				"weight": 2
 			},
 			{
-				"data": "incendium:quartz_flats",
+				"data": "incendium:infernal_dunes",
 				"weight": 2
 			}
 		]
@@ -378,11 +378,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:withered_forest",
+				"data": "incendium:ash_barrens",
 				"weight": 2
 			},
 			{
-				"data": "incendium:ash_barrens",
+				"data": "incendium:quartz_flats",
 				"weight": 2
 			},
 			{
@@ -390,7 +390,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:infernal_dunes",
+				"data": "incendium:inverted_forest",
+				"weight": 2
+			},
+			{
+				"data": "incendium:withered_forest",
 				"weight": 2
 			},
 			{
@@ -398,15 +402,11 @@ If your settings in this file seem to have to no effect on the generation of the
 				"weight": 2
 			},
 			{
-				"data": "incendium:inverted_forest",
-				"weight": 2
-			},
-			{
 				"data": "incendium:volcanic_deltas",
 				"weight": 2
 			},
 			{
-				"data": "incendium:quartz_flats",
+				"data": "incendium:infernal_dunes",
 				"weight": 2
 			}
 		]
