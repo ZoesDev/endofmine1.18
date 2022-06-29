@@ -1,12 +1,12 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
 	"Use Anti Overlap" = true
 	#Quark replaces the Piston logic to allow for its piston features to work. If you're having troubles, try turning this off.
-	"Use Piston Logic Replacement" = true
+	"Use Piston Logic Replacement" = false
 	#Allowed values: (0,)
 	"Piston Push Limit" = 12
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -233,7 +233,7 @@
 [management]
 	"Item Sharing" = true
 	"Inventory Sorting" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Expanded Item Interactions" = true
 	"Easy Transfering" = true
 	"Chests In Boats" = true
@@ -269,7 +269,7 @@
 	"Endermosh Music Disc" = true
 	"Color Runes" = true
 	Camera = true
-	"Bundle Recipe" = true
+	"Bundle Recipe" = false
 	"Bottled Cloud" = true
 	"Beacon Redirection" = true
 	"Ancient Tomes" = true
@@ -395,7 +395,7 @@
 	"Hoe Harvesting" = true
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
-	Emotes = true
+	Emotes = false
 	"Dragon Scales" = true
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true
@@ -404,7 +404,7 @@
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
-	"Vexes Die With Their Masters" = true
+	"Vexes Die With Their Masters" = false
 	"Pig Litters" = true
 	"Grab Chickens" = true
 
@@ -1235,11 +1235,11 @@
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 120
+			"Spawn Weight" = 20
 			#Allowed values: [1,)
-			"Min Group Size" = 2
+			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 4
+			"Max Group Size" = 2
 
 			[mobs.toretoise.spawn_config.biomes]
 
@@ -1270,7 +1270,7 @@
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 80
+			"Spawn Weight" = 20
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1433,7 +1433,7 @@
 	"Microcrafting Helper" = true
 	"Improved Tooltips" = true
 	"Greener Grass" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Back Button Keybind" = true
 	"Auto Walk Keybind" = true
 	"Soul Candles" = true
@@ -1527,15 +1527,15 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
-		"Nerf Villager Discount" = true
+		"Nerf Villager Discount" = false
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
@@ -1550,12 +1550,12 @@
 		"Enchantments To Begone" = []
 
 [oddities]
-	"Totem Of Holding" = true
-	Pipes = true
-	"Matrix Enchanting" = true
+	"Totem Of Holding" = false
+	Pipes = false
+	"Matrix Enchanting" = false
 	Magnets = false
-	Crate = true
-	Backpack = true
+	Crate = false
+	Backpack = false
 	"Tiny Potato" = true
 
 	[oddities.totem_of_holding]

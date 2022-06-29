@@ -326,3 +326,11 @@ Toggle Drippy Customization Overlay | CTRL + ALT +
 armorstatushud.keys.open_settings
 flight_descent
 key.jei.closeRecipeGui
+key.ae2.wireless_terminal
+key.ae2.portable_item_cell
+key.ae2.portable_fluid_cell
+key.ae2.wireless_pattern_encoding_terminal
+key.ae2.wireless_pattern_access_terminal
+key.ae2.ae2wtlib_restock
+key.ae2.ae2wtlib_magnet
+bloodmagic.keybind.open_holding

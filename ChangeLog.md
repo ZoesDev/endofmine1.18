@@ -1,3 +1,77 @@
+# 1.2 UPDATE
+
+## Recipe changes
+
+* removed all angel rings but the main one from being craftable
+
+## Forge changes
+
+* updated forge to 40.1.52
+
+## Mods Added
+
+* Lazier AE2
+* Connectivity -- To fix some of the server side issues with logging into the servers and timing out or hitting packet size limits.
+* Just enough Painting Previews
+* Powah! (Rearchitected)
+
+## Removed Mods
+### Most of these mods are libraries for mods That were being tested or removed and didnt catch the files being left behind. Others are removed because of lag and crashes they were causing.
+
+    * libraries from old mods that were removed or for testing
+        * shetiphiancore.
+        * mattdahepic-core
+        * libnonymous
+        * framework
+        * ForgeEndertech
+        * Cyclops Core
+        * Borealis
+        * ConnectedTexturesMod.
+        * BdLib
+        * BlockUI
+        * Moonlight Lib
+    * wireless chargers
+    * XP Tome
+    * Little Contraptions
+    * Godly Vampirism
+    * Solar Helmet [FORGE]
+    * No Recipe Advancements
+    * inventory essentials
+    * Observable
+    * Legendary Tooltips
+    * Integrated Terminals
+    * Integrated Tunnels
+    * Integrated Crafting
+    * Integrated Dynamics
+    * create plus
+    * create stuff additions
+    * create alloyed
+    * create crafts& additions
+    * create cafe
+    * create confectionery
+    * thermal cultivation
+    * modular routers
+    * create deco
+    * ai improvements
+
+
+
+## Miscellaneous Changes
+
+* Config files are cleaned up from all the random testing
+* Update configs to be better balanced and remove annoyances
+
+
+
+
+
+
+
+
+
+
+
+
 # 1.1 UPDATE
 
 
