@@ -1,5 +1,5 @@
 version:2975
-autoJump:false
+autoJump:true
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -24,8 +24,8 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:8
-simulationDistance:11
+renderDistance:12
+simulationDistance:17
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
@@ -75,7 +75,7 @@ syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:0.25758693
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
